@@ -1,0 +1,42 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.mod
+*_genmod.f90
+*.htm
+*.manifest
+*.rc
+*.res
+*.ilk
+*.pdb
+*.lib
+*.res
+*.tlog
+*.idb
+*.lastbuildstate
+*.XML
+*.css
+*.xslt
+*.gif
+
+# Executables
+*.exe
+*.out
+*.app
+
+# MODFLOW output files
+*.hobs
+*.cbc
+*.hed
+*.out
+*.list
+*.lst
+*.csv
+*.monthly
+*.total
+*.yearly
+
+MF_NWT/MF_NWT/Release/
+MF_NWT/MF_NWT/Debug/
