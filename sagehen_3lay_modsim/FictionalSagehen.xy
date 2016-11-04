@@ -1,0 +1,708 @@
+xyVersion 8.3.2
+numhydtables 0
+n_links 27
+n_nodes 26
+n_lags 5
+ExtManualStorageRightActive False
+ExtStorageRightActive False
+ExtWaterRightsActive False
+ExtLastFillRentActive False
+NonstorageNodeSize 100
+DemandNodeSize 100
+ReservoirNodeSize 100
+LinkSize 100
+BackgroundImageLocation 
+BackgroundImageSize 0
+DefaultFlowUnits acre-ft/month
+DefaultStorageUnits acre-ft
+hydroCtrl
+ExtHydropowerActive False
+effCurve
+effCurveName powerEff
+fakeht
+1 1000
+qt
+1 1000
+qt_units cfs
+ht_units ft
+efft
+0 1
+1 1
+2 1
+3 1
+node
+name NonStorage
+desc 
+num 1
+ntype 2
+out 1
+pos
+0 57.97852000
+1 512.50000000
+labelpos
+0 -23.52148000
+1 17.00000000
+select 0
+node
+name NonStorage1
+desc 
+num 2
+ntype 2
+in 1
+in 2
+out 3
+pos
+0 261.64160000
+1 392.00000000
+labelpos
+0 -30.85840000
+1 -20.50000000
+select 0
+node
+name NonStorage2
+desc 
+num 3
+ntype 2
+out 2
+pos
+0 112.64160000
+1 385.50000000
+labelpos
+0 -26.85840000
+1 17.00000000
+select 0
+node
+name NonStorage3
+desc 
+num 4
+ntype 2
+in 3
+in 4
+out 5
+pos
+0 338.64160000
+1 379.00000000
+labelpos
+0 -26.85840000
+1 -16.50000000
+select 0
+node
+name NonStorage4
+desc 
+num 5
+ntype 2
+out 4
+pos
+0 349.64160000
+1 620.50000000
+labelpos
+0 -26.85840000
+1 17.00000000
+select 0
+node
+name InLineRes
+desc 
+num 6
+ntype 1
+in 26
+out 27
+pos
+0 441.94730000
+1 376.50000000
+labelpos
+0 -18.55273000
+1 17.00000000
+select 0
+max_vol 100
+reservoir_units acre-ft
+effCurveName powerEff
+justTheName True
+resnext 6
+resprev 6
+tstarget
+variesbyyear True
+units acre-ft
+02/01/1980 00:00:00	0
+cpoints_scaled False
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+resbali
+resbalpcts
+0 100
+resbalflag 1
+node
+name NonStorage5
+desc 
+num 7
+ntype 2
+in 6
+in 7
+out 8
+pos
+0 502.64160000
+1 359.00000000
+labelpos
+0 -28.85840000
+1 -19.50000000
+select 0
+node
+name NonStorage6
+desc 
+num 8
+ntype 2
+out 6
+pos
+0 501.64160000
+1 566.50000000
+labelpos
+0 -26.85840000
+1 17.00000000
+select 0
+node
+name NonStorage7
+desc 
+num 9
+ntype 2
+in 8
+in 10
+out 11
+pos
+0 619.64160000
+1 388.50000000
+labelpos
+0 -26.85840000
+1 17.00000000
+select 0
+node
+name NonStorage8
+desc 
+num 10
+ntype 2
+in 9
+in 11
+out 12
+pos
+0 712.64160000
+1 381.00000000
+labelpos
+0 -10.85840000
+1 -21.50000000
+select 0
+node
+name NonStorage9
+desc 
+num 11
+ntype 2
+out 9
+pos
+0 688.64160000
+1 573.50000000
+labelpos
+0 -26.85840000
+1 17.00000000
+select 0
+node
+name NonStorage10
+desc 
+num 12
+ntype 2
+out 10
+pos
+0 551.30470000
+1 185.00000000
+labelpos
+0 -37.19531000
+1 -16.50000000
+select 0
+node
+name NonStorage11
+desc 
+num 13
+ntype 2
+in 12
+out 15
+out 23
+pos
+0 814.30470000
+1 406.00000000
+labelpos
+0 -27.19531000
+1 -16.50000000
+select 0
+node
+name OffLineRes
+desc 
+num 14
+ntype 1
+in 13
+in 23
+out 14
+pos
+0 968.50000000
+1 548.50000000
+labelpos
+0 13.11133000
+1 14.50000000
+select 0
+reservoir_units acre-ft
+resnext 14
+resprev 14
+cpoints_scaled False
+area_units acres
+capacity_units acre-ft
+hcapacity_units acre-ft/month
+node
+name NonStorage12
+desc 
+num 15
+ntype 2
+out 13
+pos
+0 902.30470000
+1 651.50000000
+labelpos
+0 -30.19531000
+1 17.00000000
+select 0
+node
+name NonStorage13
+desc 
+num 16
+ntype 2
+in 14
+in 19
+out 20
+out 21
+pos
+0 945.00520000
+1 463.50000000
+labelpos
+0 -82.19531000
+1 8.50000000
+select 0
+node
+name Sink
+desc 
+num 17
+ntype 4
+in 22
+pos
+0 1,169.99200000
+1 517.50000000
+labelpos
+0 -4.50781300
+1 17.00000000
+select 0
+node
+name NonStorage14
+desc 
+num 18
+ntype 2
+in 15
+in 16
+out 17
+pos
+0 889.30470000
+1 435.50000000
+labelpos
+0 -25.19531000
+1 19.50000000
+select 0
+node
+name NonStorage15
+desc 
+num 19
+ntype 2
+out 16
+pos
+0 843.30470000
+1 215.00000000
+labelpos
+0 -35.19531000
+1 -13.50000000
+select 0
+node
+name NonStorage16
+desc 
+num 20
+ntype 2
+in 17
+out 18
+out 19
+pos
+0 959.30470000
+1 435.00000000
+labelpos
+0 -18.19531000
+1 -13.50000000
+select 0
+node
+name Demand
+desc 
+num 21
+ntype 3
+in 18
+pos
+0 1,131.32100000
+1 414.50000000
+labelpos
+0 -14.17871000
+1 17.00000000
+select 0
+pcapUnits acre-ft/month
+tsdemand
+variesbyyear True
+units acre-ft/month
+01/01/1980 00:00:00	3
+07/01/1980 00:00:00	10
+09/01/1980 00:00:00	3
+node
+name FlowThru2
+desc 
+num 22
+ntype 3
+in 21
+pos
+0 1,095.62300000
+1 459.50000000
+labelpos
+0 -19.87695000
+1 17.00000000
+select 0
+pcapUnits acre-ft/month
+node
+name NonStorage17
+desc 
+num 23
+ntype 2
+in 20
+out 22
+out 24
+pos
+0 1,042.30500000
+1 495.50000000
+labelpos
+0 -72.19531000
+1 16.50000000
+select 0
+node
+name Demand1
+desc 
+num 24
+ntype 3
+in 24
+pos
+0 1,124.98400000
+1 558.50000000
+labelpos
+0 -17.51563000
+1 17.00000000
+select 0
+pcapUnits acre-ft/month
+node
+name NonStorage18
+desc 
+num 25
+ntype 2
+in 5
+out 25
+out 26
+pos
+0 382.30470000
+1 310.00000000
+labelpos
+0 -43.19531000
+1 -22.50000000
+select 0
+node
+name NonStorage19
+desc 
+num 26
+ntype 2
+in 25
+in 27
+out 7
+pos
+0 462.30470000
+1 307.00000000
+labelpos
+0 -32.84494000
+1 -21.72629000
+select 0
+link
+lname NonStorage_NonStorage1
+ldescription 
+lnum 1
+fromnum 1
+tonum 2
+select 0
+link
+lname NonStorage2_NonStorage1
+ldescription 
+lnum 2
+fromnum 3
+tonum 2
+select 0
+link
+lname NonStorage1_NonStorage3
+ldescription 
+lnum 3
+fromnum 2
+tonum 4
+select 0
+link
+lname NonStorage4_NonStorage3
+ldescription 
+lnum 4
+fromnum 5
+tonum 4
+select 0
+link
+lname NonStorage3_NonStorage18
+ldescription 
+lnum 5
+fromnum 4
+tonum 25
+select 0
+link
+lname NonStorage6_NonStorage5
+ldescription 
+lnum 6
+fromnum 8
+tonum 7
+select 0
+link
+lname NonStorage19_NonStorage5
+ldescription 
+lnum 7
+fromnum 26
+tonum 7
+select 0
+link
+lname NonStorage5_NonStorage7
+ldescription 
+lnum 8
+fromnum 7
+tonum 9
+select 0
+link
+lname NonStorage9_NonStorage8
+ldescription 
+lnum 9
+fromnum 11
+tonum 10
+select 0
+link
+lname NonStorage10_NonStorage7
+ldescription 
+lnum 10
+fromnum 12
+tonum 9
+select 0
+link
+lname NonStorage7_NonStorage8
+ldescription 
+lnum 11
+fromnum 9
+tonum 10
+select 0
+link
+lname NonStorage8_NonStorage11
+ldescription 
+lnum 12
+fromnum 10
+tonum 13
+select 0
+link
+lname NonStorage12_OffLineRes
+ldescription 
+lnum 13
+fromnum 15
+tonum 14
+select 0
+link
+lname OffLineRes_NonStorage13
+ldescription 
+lnum 14
+fromnum 14
+tonum 16
+select 0
+link
+lname NonStorage11_NonStorage14
+ldescription 
+lnum 15
+fromnum 13
+tonum 18
+select 0
+link
+lname NonStorage15_NonStorage14
+ldescription 
+lnum 16
+fromnum 19
+tonum 18
+select 0
+link
+lname NonStorage14_NonStorage16
+ldescription 
+lnum 17
+fromnum 18
+tonum 20
+select 0
+link
+lname NonStorage16_Demand
+ldescription 
+lnum 18
+fromnum 20
+tonum 21
+lcost -100
+select 0
+link
+lname NonStorage16_NonStorage13
+ldescription 
+lnum 19
+fromnum 20
+tonum 16
+select 0
+link
+lname NonStorage13_NonStorage17
+ldescription 
+lnum 20
+fromnum 16
+tonum 23
+lcoords
+0 1,081.13500000
+1 488.50000000
+select 0
+link
+lname NonStorage13_FlowThru2
+ldescription 
+lnum 21
+fromnum 16
+tonum 22
+lcoords
+0 1,081.56300000
+1 470.54950000
+select 0
+link
+lname NonStorage17_Sink
+ldescription 
+lnum 22
+fromnum 23
+tonum 17
+lcoords
+0 1,152.63500000
+1 514.49990000
+select 0
+link
+lname NonStorage11_OffLineRes
+ldescription 
+lnum 23
+fromnum 13
+tonum 14
+select 0
+link
+lname NonStorage17_Demand1
+ldescription 
+lnum 24
+fromnum 23
+tonum 24
+select 0
+link
+lname NonStorage18_NonStorage19
+ldescription 
+lnum 25
+fromnum 25
+tonum 26
+select 0
+link
+lname NonStorage18_InLineRes
+ldescription 
+lnum 26
+fromnum 25
+tonum 6
+select 0
+link
+lname InLineRes_NonStorage19
+ldescription 
+lnum 27
+fromnum 6
+tonum 26
+select 0
+ially 1 # Explicit_Targets
+iplot 0
+iprd Monthly
+iut 0
+n_years 1
+rdim
+0 0
+1 0
+2 20480
+3 2700
+title FictionalSagehen
+uselags 1
+maxit 100
+gw_cp 0.05
+flowth_cp 5E-05
+relxacrul 0
+dataStartDate 01/01/1980 00:00:00
+dataEndDate 01/01/1981 00:00:00
+startingDate 01/01/1980 00:00:00
+endingDate 01/01/1981 00:00:00
+accrualDate 01/01/1980 00:00:00
+seasCapDate 01/01/1980 00:00:00
+accuracy 0
+defaultMaxCap 2999999999
+res_output -1
+dws_rel -1
+elev_end -1
+evp_loss -1
+evp_rate -1
+gwater -1
+head_avg -1
+hydra_Cap -1
+powr_avg -1
+powr_pk -1
+pump_in -1
+pump_out -1
+pwr_2nd -1
+seepage -1
+spills -1
+stor_beg -1
+stor_end -1
+stor_trg -1
+unreg_in -1
+ups_rel -1
+dem_output -1
+dem_sht -1
+demand -1
+gw_in -1
+surf_in -1
+acc_flow -1
+acc_output -1
+acrl -1
+stgl -1
+flo_flow -1
+flo_output -1
+loss -1
+natflow -1
+fromgwtono -1
+gw_output -1
+noTimeStepsInMemorygwinfiltra -1
+spcl_rpts 0
+part_flows 0
+ver7OutputFiles 0
+ver8MSDBOutputFiles -1
+DeleteTempVer8OutputFiles -1
+noTimeStepsInMemory 12
+hydroStateOUT -1
+nonStorage_output -1
+l_MaxOUT -1
+l_MinOUT -1
+Flow_ThruOUT -1
+Rout_RetOUT -1
+InflowOUT -1
+nomaxmesg 0
+constsysst 0
+IsBackRoutingActive 0
+IsStorageAccountWithRouting 0
