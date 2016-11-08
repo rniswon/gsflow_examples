@@ -1,4 +1,4 @@
-LIST           26    ..\output\sagehenV3.list
+LIST            7    .\output\sagehenV3.list
 BAS6            8    .\sagehenV3.bas
 oc              9    .\sagehenV3.oc
 dis            11    .\sagehenV3.dis
@@ -18,16 +18,16 @@ DATA           51    .\LAK_OfflineRes_Stage_Vol_Area_TABFILE.txt
 #
 # Output
 #
-DATA(BINARY)   92   ..\output\UZF_RESTART.uz
-DATA(BINARY)   94   ..\output\ST.HDS
-DATA(BINARY)   95   ..\output\sagehenV3.cbc
-data           58   ..\output\head_sagehenV3.out
-data           65   ..\output\uz1_sagehenV3.out
-data           66   ..\output\uz2_sagehenV3.out
-data           67   ..\output\uz3_sagehenV3.out
-data           68   ..\output\uz_tot_sagehenV3.out
-data           69   ..\output\uz4_sagehenV3.out
-data           70   ..\output\uz5_sagehenV3.out
-data           71   ..\output\uz6_sagehenV3.out
-data           80   ..\output\sagehen_sfrseg13V3.out
+DATA(BINARY)   92   .\output\UZF_RESTART.uz
+DATA(BINARY)   94   .\output\ST.HDS
+DATA(BINARY)   95   .\output\sagehenV3.cbc
+data           58   .\output\head_sagehenV3.out
+data           65   .\output\uz1_sagehenV3.out
+data           66   .\output\uz2_sagehenV3.out
+data           67   .\output\uz3_sagehenV3.out
+data           68   .\output\uz_tot_sagehenV3.out
+data           69   .\output\uz4_sagehenV3.out
+data           70   .\output\uz5_sagehenV3.out
+data           71   .\output\uz6_sagehenV3.out
+data           80   .\output\sagehen_sfrseg13V3.out
 
