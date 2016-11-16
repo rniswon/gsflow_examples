@@ -1,15 +1,11 @@
 
                       Sagehen Sample Problem for GSFLOW
-                                 August 2015
+                                October 2016
  
 Several GSFLOW Control and batch files are provided to run the sample 
 problem in different model modes and for different module, solver, and 
 input-data set options that are available for a GSFLOW simulation. These 
-control and batch files are provided in the 'windows' subdirectory. Each 
-of the .bat files shown in that directory without the prefix '_32' uses 
-the 64-bit gsflow.exe version of the compiled software; batch files with 
-the '_32' prefix use the 32-bit gsflow_32.exe version of the compiled 
-software. 
+control and batch files are provided in the 'windows' subdirectory. 
 
 The Control and batch files found in the subdirectory are for the following 
 seven simulation conditions:
@@ -37,12 +33,11 @@ seven simulation conditions:
 5. PRMS-only mode using pre-processed climate data using Parameter Files 
      very similar to condition 3, with the addition of a Parameter File that 
      contains parameters for groundwater cascades (ncascdgw.params): 
-     gsflow_prms_climate_hru.bat and prms_climate_hru_control
+     gsflow_prms_climate_hru.bat and gsflow_prms_climate_hru_control
 6. PRMS-only mode demonstrating use of the Map Results module using five Parameter
      Files, four of which are the same as used in condition 4 and an additional
      file that specifies the mapping between the HRU and MODFLOW cell maps (file
-     gvr.params): gsflow_prms_map_results.bat and gsflow_prms.control (with
-     parameter mapOutOn_OFF reset to 1)
+     gvr.params): gsflow_prms_map_results.bat and gsflow_prms_map_results.control
 7. MODFLOW-only mode using the PCG solver and a minimum-input Control File:
      gsflow_modflow.bat and gsflow_modflow.control
 
@@ -77,9 +72,7 @@ which is described in detail in the GSFLOW documentation. These include:
 Several output files are provided with the distribution for comparison
 to the results of your simulations. These files are provided in the 
 'output-test' subdirectory and are arranged by the simulation mode and
-seven model conditions described above. (The results provided were
-generated using the 64-bit executable; results for the 32-bit executable
-should be nearly identical to those provided.) The results will differ slightly
+seven model conditions described above. The results will differ slightly
 from previous versions because of changes to the code and because the bottom
 elevation of layer 2, row 51, column 58 was changed from 1,185 meters to
 1,980 meters, which is more consistent with surrounding cells.
