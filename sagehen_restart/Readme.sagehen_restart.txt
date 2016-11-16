@@ -1,15 +1,13 @@
 
                   Sagehen Restart Sample Problem for GSFLOW
-                                 August 2015
+                                 October 2016
  
 This sample is for the Sagehen Creek Watershed and demonstrates use of the 
 GSFLOW restart option. The problem is described in Regan and others (2015, 
 USGS TM 6-D3).
 
 Control and batch files are provided in the 'windows' subdirectory to run the 
-problem in three model modes. Batch files are provided that run GSFLOW with 
-the 64-bit executable version of the code and with the 32-bit version of the 
-code (batch files with the prefix '_32').
+problem in three model modes. 
 
 1. GSFLOW mode: The batch file for this series of restart simulations 
 ('gsflow.bat') runs GSFLOW a total of 16 times, and its structure differs 
@@ -40,7 +38,7 @@ to the restart simulation number, and in the 'output\prms' subdirectory with
 names 'prms_ic_#,' in which # refers to the restart simulation number.
 
 2. PRMS mode: The batch file for this simulation is 'gsflow_prms.bat' and the
-control file is 'gsflow.control.' Note that control parameter 'model_mode' is
+control file is 'gsflow_prms.control.' Note that control parameter 'model_mode' is
 reset from a value of GSFLOW to PRMS in the batch file. This simulation extends
 from October 1, 1980, through January 30, 1984. Output for the simulation is 
 provided in the '2_PRMS_model' subdirectory under the 'output-test' subdirectory.
