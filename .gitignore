@@ -38,6 +38,7 @@
 *.total
 *.yearly
 *.csv
+*.gag
 
 MF_NWT/MF_NWT/Release/
 MF_NWT/MF_NWT/Debug/
