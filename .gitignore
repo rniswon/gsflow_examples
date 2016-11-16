@@ -37,6 +37,7 @@
 *.monthly
 *.total
 *.yearly
+*.csv
 
 MF_NWT/MF_NWT/Release/
 MF_NWT/MF_NWT/Debug/
