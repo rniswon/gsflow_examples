@@ -1,15 +1,13 @@
 
                Lake Tahoe Watershed Restart Sample Problem for GSFLOW
-                                 August 2015
+                                 October 2016
  
 This sample is for the Lake Tahoe Watershed and demonstrates use of the 
 GSFLOW restart option. The problem is described in Regan and others (2015, 
 USGS TM 6-D3).
 
 Control and batch files are provided in the 'windows' subdirectory to run the 
-problem in GSFLOW mode. Batch files are provided to run the problem with the
-64-bit executable version of GSFLOW ('gsflow.bat') and with the 32-bit 
-executable version ('gsflow_32.bat').
+problem in GSFLOW mode.
 
 The batch files for this series of restart simulations run GSFLOW a total of 
 16 times. The control file for this series of simulations is 'Tahoe.control.' 

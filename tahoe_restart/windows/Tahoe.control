@@ -73,7 +73,7 @@ data_file
 param_file
 1
 4
-../input/PRMS/tahoe.params
+../input/PRMS/tahoe.param_v8_rgn
 ####
 modflow_name
 1
@@ -134,11 +134,6 @@ strmflow_module
 1
 4
 strmflow
-####
-parameter_check_flag
-1
-1
-0
 ####
 statsON_OFF
 1

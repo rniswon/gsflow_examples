@@ -1,8 +1,8 @@
 #Tahoe Simulation -- Problem for GSFLOW 1/17/2013
-options
+OPTIONS
 SPECIFYTHTR
 SPECIFYTHTI
-end
+END
     3     1     1     1     0     0    10    50     1   0.500     NUZTOP IUZFOPT IRUNFLG IETFLG IUZFCB1 IUZFCB2 NTRAIL NSETS NUZGAGES SURFDEP
 INTERNAL 1 (free) 0           uzfbnd
  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
