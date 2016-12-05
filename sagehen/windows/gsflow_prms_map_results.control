@@ -31,10 +31,11 @@ data_file
 ../input/prms/sagehen.data
 ####
 param_file
-5
+6
 4
 ../input/prms/prms.params
 ../input/prms/gis.params
+../input/prms/gvr.params
 ../input/prms/ncascade.params
 ../input/prms/ncascdgw.params
 ../input/prms/subbasin.params
@@ -57,7 +58,7 @@ nmapOutVars
 mapOutON_OFF
 1
 1
-0
+1
 ####
 rpt_days
 1
