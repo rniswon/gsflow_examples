@@ -146207,13 +146207,6 @@ nmonths
 0
 0
 ####
-print_freq
-1
-one
-1
-1
-6
-####
 cascade_tol
 1
 one
