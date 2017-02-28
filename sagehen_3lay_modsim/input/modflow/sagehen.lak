@@ -1,6 +1,5 @@
 # Sagehen model modified for testing GSFLOW-MODSIM coupling
-# 
-TABLEINPUT
+# TABLEINPUT
       2     95                                                        #ITEM 1B: NLAKES,ILKCB
   -0.75    100   0.00001  0.25                                        #ITEM 2:  THETA,[NSSITR],[SSCNCR],SURFDEP
  2040.0 2019.0    2050.2    50                                        #ITEM 3:  STAGES [SSMN SSMX] Lake_Bathymetry_File_Unit_Number
@@ -226,7 +225,8 @@ INTERNAL 1 (free) -1                                                   #ITEM 6: 
 0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
 CONSTANT 0                                                             # ITEM 6: BDLKNC(NCOL,NROW): Layer 3 (1 array for each model layer)
          0                                                             # ITEM 7: NSLMS (Sub-lake systems to be simulated
-      0.00  0.001506      0.00      0.00                               # ITEM 8: PRCPLK,EVAPLK,RNF,WTHDRW - Steady State Period
+      0.00  0.001506      0.00      0.00                               # ITEM 8: PRCPLK,EVAPLK,RNF,WTHDRW - Steady State Period Lake 1
+      0.00  0.001506      0.00      0.00                               # ITEM 8: PRCPLK,EVAPLK,RNF,WTHDRW - Steady State Period Lake 2
         -1        -1         0                                         # ITEM 4: ITMP ITMP1 LWRT 10/01/1980
         -1        -1         0                                         # ITEM 4: ITMP ITMP1 LWRT 10/02/1980
         -1        -1         0                                         # ITEM 4: ITMP ITMP1 LWRT 10/03/1980
