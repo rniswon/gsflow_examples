@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\mmf.git\alloc_space.c" />
+    <ClCompile Include="..\..\..\mmf.git\batch_run.c" />
+    <ClCompile Include="..\..\..\mmf.git\batch_run_functions.c" />
+    <ClCompile Include="..\..\..\mmf.git\build_lists.c" />
+    <ClCompile Include="..\..\..\mmf.git\call_modules.c" />
+    <ClCompile Include="..\..\..\mmf.git\call_setdims.c" />
+    <ClCompile Include="..\..\..\mmf.git\check_vars.c" />
+    <ClCompile Include="..\..\..\mmf.git\control_addr.c" />
+    <ClCompile Include="..\..\..\mmf.git\control_array.c" />
+    <ClCompile Include="..\..\..\mmf.git\control_var.c" />
+    <ClCompile Include="..\..\..\mmf.git\create_vstats.c" />
+    <ClCompile Include="..\..\..\mmf.git\decldim.c" />
+    <ClCompile Include="..\..\..\mmf.git\declparam.c" />
+    <ClCompile Include="..\..\..\mmf.git\declvar.c" />
+    <ClCompile Include="..\..\..\mmf.git\decl_control.c" />
+    <ClCompile Include="..\..\..\mmf.git\dim_addr.c" />
+    <ClCompile Include="..\..\..\mmf.git\free_vstats.c" />
+    <ClCompile Include="..\..\..\mmf.git\getdim.c" />
+    <ClCompile Include="..\..\..\mmf.git\getdimname.c" />
+    <ClCompile Include="..\..\..\mmf.git\getparam.c" />
+    <ClCompile Include="..\..\..\mmf.git\getvar.c" />
+    <ClCompile Include="..\..\..\mmf.git\get_elem_add.c" />
+    <ClCompile Include="..\..\..\mmf.git\get_times.c" />
+    <ClCompile Include="..\..\..\mmf.git\graph_single_run.c" />
+    <ClCompile Include="..\..\..\mmf.git\julconvert.c" />
+    <ClCompile Include="..\..\..\mmf.git\julday.c" />
+    <ClCompile Include="..\..\..\mmf.git\load_param.c" />
+    <ClCompile Include="..\..\..\mmf.git\mmf.c" />
+    <ClCompile Include="..\..\..\mmf.git\param_addr.c" />
+    <ClCompile Include="..\..\..\mmf.git\parse_args.c" />
+    <ClCompile Include="..\..\..\mmf.git\print_model_info.c" />
+    <ClCompile Include="..\..\..\mmf.git\print_params.c" />
+    <ClCompile Include="..\..\..\mmf.git\print_vars.c" />
+    <ClCompile Include="..\..\..\mmf.git\putvar.c" />
+    <ClCompile Include="..\..\..\mmf.git\readvar.c" />
+    <ClCompile Include="..\..\..\mmf.git\read_control.c" />
+    <ClCompile Include="..\..\..\mmf.git\read_datainfo.c" />
+    <ClCompile Include="..\..\..\mmf.git\read_line.c" />
+    <ClCompile Include="..\..\..\mmf.git\read_params.c" />
+    <ClCompile Include="..\..\..\mmf.git\read_vars.c" />
+    <ClCompile Include="..\..\..\mmf.git\reset_dim.c" />
+    <ClCompile Include="..\..\..\mmf.git\save_params.c" />
+    <ClCompile Include="..\..\..\mmf.git\setup_cont.c" />
+    <ClCompile Include="..\..\..\mmf.git\sort_dims.c" />
+    <ClCompile Include="..\..\..\mmf.git\sort_params.c" />
+    <ClCompile Include="..\..\..\mmf.git\sort_vars.c" />
+    <ClCompile Include="..\..\..\mmf.git\str_to_vals.c" />
+    <ClCompile Include="..\..\..\mmf.git\timing.c" />
+    <ClCompile Include="..\..\..\mmf.git\umalloc_etc.c" />
+    <ClCompile Include="..\..\..\mmf.git\var_addr.c" />
+    <ClCompile Include="..\..\..\mmf.git\write_vstats.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\mmf.git\defs.h" />
+    <ClInclude Include="..\..\..\mmf.git\globals.h" />
+    <ClInclude Include="..\..\..\mmf.git\mms.h" />
+    <ClInclude Include="..\..\..\mmf.git\protos.h" />
+    <ClInclude Include="..\..\..\mmf.git\structs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\mmf.git\Makefile" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E8144B7-970A-436B-8BEC-AD857C3D7D89}</ProjectGuid>
+    <RootNamespace>mmf</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
