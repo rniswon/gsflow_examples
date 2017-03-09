@@ -1,0 +1,12 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+  CPPStaticLIBWrapper.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+     Creating library C:\Users\trianae\MyLocalCode\USGS\gsflow.git\msds\gsflow_develop_f\Debug\CPPStaticLIBWrapper.lib and object C:\Users\trianae\MyLocalCode\USGS\gsflow.git\msds\gsflow_develop_f\Debug\CPPStaticLIBWrapper.exp
+mmf.lib(mmf.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'libcmtd.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+mmf.lib(call_modules.obj) : error LNK2019: unresolved external symbol _call_modules_ referenced in function _call_modules
+mmf.lib(call_setdims.obj) : error LNK2019: unresolved external symbol _setdims_ referenced in function _call_setdims
+C:\Users\trianae\MyLocalCode\USGS\gsflow.git\msds\gsflow_develop_f\Debug\CPPStaticLIBWrapper.dll : fatal error LNK1120: 2 unresolved externals
