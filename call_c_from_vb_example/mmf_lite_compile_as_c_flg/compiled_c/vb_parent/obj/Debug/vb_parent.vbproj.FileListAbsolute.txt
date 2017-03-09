@@ -1,0 +1,10 @@
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\bin\Debug\vb_parent.exe.config
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\bin\Debug\vb_parent.exe
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\bin\Debug\vb_parent.pdb
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\bin\Debug\vb_parent.xml
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\obj\Debug\vb_parent.vbprojResolveAssemblyReference.cache
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\obj\Debug\vb_parent.Resources.resources
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\obj\Debug\vb_parent.vbproj.GenerateResource.Cache
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\obj\Debug\vb_parent.exe
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\obj\Debug\vb_parent.xml
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_c_from_vb_example\mmf_lite_compile_as_c_flg\compiled_c\vb_parent\obj\Debug\vb_parent.pdb

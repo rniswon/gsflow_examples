@@ -1,7 +1,7 @@
 xyVersion 8.4.3
 numhydtables 0
-n_links 24
-n_nodes 23
+n_links 25
+n_nodes 24
 n_lags 5
 ExtManualStorageRightActive False
 ExtStorageRightActive False
@@ -50,8 +50,10 @@ num 1
 ntype 2
 out 1
 tsinflow
+variesbyyear True
 units acre-ft/month
-01/01/1980 00:00:00	5
+01/01/1980 00:00:00	7
+01/01/1981 00:00:00	0
 pos
 0 90.0000
 1 521.0000
@@ -94,8 +96,7 @@ num 4
 ntype 2
 in 3
 in 4
-out 5
-out 24
+out 25
 pos
 0 374.0000
 1 404.0000
@@ -124,11 +125,11 @@ ntype 1
 in 5
 out 7
 pos
-0 433.0000
-1 304.0000
+0 464.0000
+1 340.0000
 labelpos
-0 433.0000
-1 312.5000
+0 465.0000
+1 316.5000
 select 0
 max_vol 100
 reservoir_units acre-ft
@@ -255,11 +256,11 @@ in 13
 in 16
 out 14
 pos
-0 977.0000
-1 533.0000
+0 942.0000
+1 529.0000
 labelpos
-0 977.0000
-1 541.5000
+0 942.0000
+1 537.5000
 select 0
 max_vol 100
 reservoir_units acre-ft
@@ -284,11 +285,11 @@ num 15
 ntype 2
 out 13
 pos
-0 941.0000
-1 660.0000
+0 915.0000
+1 655.0000
 labelpos
-0 941.0000
-1 668.5000
+0 915.0000
+1 663.5000
 select 0
 node
 name NonStorage13
@@ -314,24 +315,24 @@ num 17
 ntype 4
 in 23
 pos
-0 1164.0000
-1 484.0000
+0 1230.0000
+1 517.0000
 labelpos
-0 1164.0000
-1 492.5000
+0 1230.0000
+1 525.5000
 select 0
 node
-name FlowThru
+name InStreamFlow
 desc 
 num 18
 ntype 3
 in 15
 pos
-0 1097.0000
-1 511.0000
+0 1071.0000
+1 516.0000
 labelpos
-0 1097.0000
-1 519.5000
+0 1071.0000
+1 524.5000
 select 0
 pcapUnits acre-ft/month
 idstrmx
@@ -385,17 +386,17 @@ labelpos
 1 465.5000
 select 0
 node
-name Demand
+name Municipal
 desc 
 num 22
 ntype 3
 in 20
 pos
-0 1154.0000
-1 423.0000
+0 1098.0000
+1 372.0000
 labelpos
-0 1154.0000
-1 431.5000
+0 1098.0000
+1 380.5000
 select 0
 pcapUnits acre-ft/month
 tsdemand
@@ -411,11 +412,26 @@ ntype 2
 in 22
 out 23
 pos
-0 1098.6000
-1 476.5000
+0 1130.6000
+1 490.5000
 labelpos
-0 1098.6000
-1 485.0000
+0 1130.6000
+1 499.0000
+select 0
+node
+name NonStorage18
+desc 
+num 24
+ntype 2
+in 25
+out 24
+out 5
+pos
+0 423.6000
+1 395.5000
+labelpos
+0 423.6000
+1 404.0000
 select 0
 link
 lname NonStorage_NonStorage1
@@ -446,10 +462,10 @@ fromnum 5
 tonum 4
 select 0
 link
-lname NonStorage3_InLineRes
+lname NonStorage18_InLineRes
 ldescription 
 lnum 5
-fromnum 4
+fromnum 24
 tonum 6
 lcost -50
 select 0
@@ -518,7 +534,7 @@ tonum 16
 lcost 75
 select 0
 link
-lname NonStorage13_FlowThru
+lname NonStorage13_InStreamFlow
 ldescription 
 lnum 15
 fromnum 16
@@ -561,12 +577,12 @@ fromnum 19
 tonum 21
 select 0
 link
-lname NonStorage16_Demand
+lname NonStorage16_Municipal
 ldescription 
 lnum 20
 fromnum 21
 tonum 22
-lcost -100
+lcost -85
 select 0
 link
 lname NonStorage16_NonStorage13
@@ -590,32 +606,39 @@ fromnum 23
 tonum 17
 select 0
 link
-lname NonStorage3_NonStorage5
+lname NonStorage18_NonStorage5
 ldescription 
 lnum 24
-fromnum 4
+fromnum 24
 tonum 7
+select 0
+link
+lname NonStorage3_NonStorage18
+ldescription 
+lnum 25
+fromnum 4
+tonum 24
 select 0
 annot
 astr -100
-aposx 1033
-aposy 420
+aposx 1042
+aposy 484
 annot
 astr -50
-aposx 362
-aposy 347
+aposx 432
+aposy 364
 annot
 astr -75
-aposx 888
-aposy 489
+aposx 886
+aposy 479
 annot
 astr -85
-aposx 1048
-aposy 501
+aposx 1022
+aposy 415
 annot
 astr +75
-aposx 998
-aposy 495
+aposx 972
+aposy 502
 ially 1 # Explicit_Targets
 iplot 0
 iprd Monthly
@@ -635,9 +658,9 @@ evap_cp 0.01
 infeasrestart 0
 relxacrul 0
 dataStartDate 01/01/1980 00:00:00
-dataEndDate 01/01/1981 00:00:00
+dataEndDate 01/01/1982 00:00:00
 startingDate 01/01/1980 00:00:00
-endingDate 01/01/1981 00:00:00
+endingDate 01/01/1982 00:00:00
 accrualDate 01/01/1980 00:00:00
 seasCapDate 01/01/1980 00:00:00
 accuracy 0
