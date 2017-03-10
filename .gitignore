@@ -42,3 +42,5 @@
 
 MF_NWT/MF_NWT/Release/
 MF_NWT/MF_NWT/Debug/
+*.db
+*.ipch
