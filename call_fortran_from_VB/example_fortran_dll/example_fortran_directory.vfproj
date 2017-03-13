@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeDynamicLibrary" ProjectCreator="Intel Fortran" Keyword="Dll" Version="11.0" ProjectIdGuid="{9B44AEF9-294B-4CAE-B47C-61DC27A31B5D}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemWindows" LinkDLL="true"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool" CommandLine="COPY /Y &quot;$(TargetDir)\example_fortran_directory.dll&quot; &quot;$(SolutionDir)\vb_caller\Call_Fortran_example\bin\Debug&quot;&#xA;COPY /Y &quot;$(TargetDir)\example_fortran_directory.lib&quot; &quot;$(SolutionDir)\vb_caller\Call_Fortran_example\bin\Debug&quot;&#xA;COPY /Y &quot;$(TargetDir)\example_fortran_directory.exp&quot; &quot;$(SolutionDir)\vb_caller\Call_Fortran_example\bin\Debug&quot;&#xA;COPY /Y &quot;$(TargetDir)\example_fortran_directory.pdb&quot; &quot;$(SolutionDir)\vb_caller\Call_Fortran_example\bin\Debug&quot;&#xA;COPY /Y &quot;$(TargetDir)\vc140.pdb&quot; &quot;$(SolutionDir)\vb_caller\Call_Fortran_example\bin\Debug&quot;" Description="Copy test Fortran DLL to VB directory"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32" ConfigurationType="typeDynamicLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" SubSystem="subSystemWindows" LinkDLL="true"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\vb_caller\Call_Fortran_example\bin\Debug\example_fortran_directory.lib"/>
+		<File RelativePath=".\Something_Simple.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
