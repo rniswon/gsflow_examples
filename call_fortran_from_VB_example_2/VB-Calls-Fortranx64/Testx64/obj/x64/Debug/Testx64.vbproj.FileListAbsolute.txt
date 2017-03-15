@@ -1,0 +1,9 @@
+C:\Users\emorway\Downloads\vb-calls-fortranx64\VB-Calls-Fortranx64\Testx64\bin\x64\Debug\Testx64.exe
+C:\Users\emorway\Downloads\vb-calls-fortranx64\VB-Calls-Fortranx64\Testx64\bin\x64\Debug\Testx64.pdb
+C:\Users\emorway\Downloads\vb-calls-fortranx64\VB-Calls-Fortranx64\Testx64\bin\x64\Debug\Testx64.xml
+C:\Users\emorway\Downloads\vb-calls-fortranx64\VB-Calls-Fortranx64\Testx64\obj\x64\Debug\Testx64.vbprojResolveAssemblyReference.cache
+C:\Users\emorway\Downloads\vb-calls-fortranx64\VB-Calls-Fortranx64\Testx64\obj\x64\Debug\Testx64.Resources.resources
+C:\Users\emorway\Downloads\vb-calls-fortranx64\VB-Calls-Fortranx64\Testx64\obj\x64\Debug\Testx64.vbproj.GenerateResource.Cache
+C:\Users\emorway\Downloads\vb-calls-fortranx64\VB-Calls-Fortranx64\Testx64\obj\x64\Debug\Testx64.exe
+C:\Users\emorway\Downloads\vb-calls-fortranx64\VB-Calls-Fortranx64\Testx64\obj\x64\Debug\Testx64.xml
+C:\Users\emorway\Downloads\vb-calls-fortranx64\VB-Calls-Fortranx64\Testx64\obj\x64\Debug\Testx64.pdb

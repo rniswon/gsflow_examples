@@ -1,0 +1,30 @@
+C:\Documents and Settings\Administrator\Desktop\Testx64\Testx64\Testx64\bin\Debug\Testx64.exe
+C:\Documents and Settings\Administrator\Desktop\Testx64\Testx64\Testx64\bin\Debug\Testx64.pdb
+C:\Documents and Settings\Administrator\Desktop\Testx64\Testx64\Testx64\bin\Debug\Testx64.xml
+C:\Documents and Settings\Administrator\Desktop\Testx64\Testx64\Testx64\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Testx64\Testx64\Testx64\obj\Debug\Testx64.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Testx64\Testx64\Testx64\obj\Debug\Testx64.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\Testx64\Testx64\Testx64\obj\Debug\Testx64.exe
+C:\Documents and Settings\Administrator\Desktop\Testx64\Testx64\Testx64\obj\Debug\Testx64.xml
+C:\Documents and Settings\Administrator\Desktop\Testx64\Testx64\Testx64\obj\Debug\Testx64.pdb
+C:\rwgreen\eatec\Testx64\Testx64\bin\Debug\Testx64.exe
+C:\rwgreen\eatec\Testx64\Testx64\bin\Debug\Testx64.pdb
+C:\rwgreen\eatec\Testx64\Testx64\bin\Debug\Testx64.xml
+C:\rwgreen\eatec\Testx64\Testx64\obj\Debug\ResolveAssemblyReference.cache
+C:\rwgreen\eatec\Testx64\Testx64\obj\Debug\Testx64.Resources.resources
+C:\rwgreen\eatec\Testx64\Testx64\obj\Debug\Testx64.vbproj.GenerateResource.Cache
+C:\rwgreen\eatec\Testx64\Testx64\obj\Debug\Testx64.exe
+C:\rwgreen\eatec\Testx64\Testx64\obj\Debug\Testx64.xml
+C:\rwgreen\eatec\Testx64\Testx64\obj\Debug\Testx64.pdb
+C:\rwgreen\eatec\Testx64\Testx64\bin\x64\Debug\Testx64.exe
+C:\rwgreen\eatec\Testx64\Testx64\bin\x64\Debug\Testx64.pdb
+C:\rwgreen\eatec\Testx64\Testx64\bin\x64\Debug\Testx64.xml
+C:\rwgreen\eatec\Testx64\Testx64\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\rwgreen\eatec\Testx64\Testx64\obj\x64\Debug\Testx64.Resources.resources
+C:\rwgreen\eatec\Testx64\Testx64\obj\x64\Debug\Testx64.vbproj.GenerateResource.Cache
+C:\rwgreen\eatec\Testx64\Testx64\obj\x64\Debug\Testx64.exe
+C:\rwgreen\eatec\Testx64\Testx64\obj\x64\Debug\Testx64.xml
+C:\rwgreen\eatec\Testx64\Testx64\obj\x64\Debug\Testx64.pdb
+C:\rwgreen\VB-Calls-Fortran\Testx64\obj\Debug\Testx64.exe
+C:\rwgreen\VB-Calls-Fortran\Testx64\obj\Debug\Testx64.xml
+C:\rwgreen\VB-Calls-Fortran\Testx64\obj\Debug\Testx64.pdb
