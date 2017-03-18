@@ -25,6 +25,16 @@ end_time
 0
 0
 ####
+modflow_time_zero
+6
+1
+1980
+10
+1
+0
+0
+0
+####
 data_file
 1
 4
