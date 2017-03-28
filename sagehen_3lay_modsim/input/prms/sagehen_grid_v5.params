@@ -60,6 +60,27 @@ nhru
 5609
 ** Parameters **
 ####
+ncol
+1
+one
+1
+1
+79
+####
+mapvars_freq
+1
+one
+1
+1
+1
+####
+mapvars_units
+1
+one
+1
+1
+3
+####
 tmax_lapse
 1
 nmonths
