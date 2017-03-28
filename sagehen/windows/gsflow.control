@@ -41,9 +41,13 @@ data_file
 ..\input\prms\sagehen.data
 ####
 param_file
-1
+5
 4
-..\input\prms\gsflow.control.param
+..\input\prms\gsflow.params
+..\input\prms\gis.params
+..\input\prms\gvr.params
+..\input\prms\ncascade.params
+..\input\prms\subbasin.params
 ####
 modflow_name
 1
