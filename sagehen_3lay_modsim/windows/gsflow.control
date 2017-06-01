@@ -59,6 +59,11 @@ modflow_name
 4
 .\sagehen.nam
 ####
+nhruOutBaseFileName
+1
+4
+.\test_
+####
 nhruOutVar_names
 1
 4
@@ -307,7 +312,7 @@ prms_warmup
 nsubOutON_OFF
 1
 1
-1
+0
 ####
 nsubOutVars
 1
