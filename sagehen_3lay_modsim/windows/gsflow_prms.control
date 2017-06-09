@@ -189,11 +189,6 @@ var_save_file
 4
 ../output/prms/prms.ic
 ####
-stats_output_file
-1
-4
-../output/prms/stats.out
-####
 dispVar_names
 10
 4
