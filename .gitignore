@@ -46,3 +46,4 @@ MF_NWT/MF_NWT/Debug/
 *.ipch
 *.log
 sagehen_restart/output/
+*OUTPUT.mdb
