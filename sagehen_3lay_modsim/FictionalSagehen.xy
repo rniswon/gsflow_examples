@@ -327,11 +327,11 @@ num 18
 ntype 3
 in 15
 pos
-0 1071.0000
-1 516.0000
+0 1087.0000
+1 543.0000
 labelpos
-0 1071.0000
-1 524.5000
+0 1087.0000
+1 551.5000
 select 0
 pcapUnits acre-ft/month
 idstrmx
@@ -355,6 +355,7 @@ pos
 labelpos
 0 915.0000
 1 448.5000
+IsLabelVisible 0
 select 0
 node
 name NonStorage15
@@ -684,8 +685,8 @@ tonum 20
 select 0
 annot
 astr -100
-aposx 1042
-aposy 484
+aposx 1049
+aposy 498
 annot
 astr -50
 aposx 432
@@ -702,6 +703,14 @@ annot
 astr +75
 aposx 972
 aposy 502
+annot
+astr Conveyance Capacity = 1
+aposx 747
+aposy 462
+annot
+astr (6/15/17) Network cost structure readynewlineNeed to update newline-Reservoir sizesnewline-Demand Magnitudesnewline-Conveyance capacities
+aposx 1043
+aposy 196
 ially 1 # Explicit_Targets
 iplot 0
 iprd Monthly
