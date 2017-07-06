@@ -1,9 +1,15 @@
 GSFLOW Control File for the Sagehen Creek Watershed
+
+####
+xyFileName
+1
+4
+..\FictionSagehen.xy
 ####
 mappingFileName
 1
 4
-.\mapFile.test
+..\Surface_water_network_layout_with_MODSIM_features.xlsm
 ####
 gwr_swale_flag
 1
