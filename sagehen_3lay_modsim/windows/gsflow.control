@@ -1,5 +1,10 @@
 GSFLOW Control File for the Sagehen Creek Watershed
 ####
+mappingFileName
+1
+4
+.\mapFile.test
+####
 gwr_swale_flag
 1
 1
