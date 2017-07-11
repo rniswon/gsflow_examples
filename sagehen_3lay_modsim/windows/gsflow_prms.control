@@ -36,7 +36,7 @@ data_file
 ../input/prms/sagehen.data
 ####
 param_file
-6
+7
 4
 ../input/prms/sagehen_grid_v5.params
 ../input/prms/sagehen_grid_constant.params
@@ -44,6 +44,7 @@ param_file
 ../input/prms/cascade.param
 ../input/prms/groundwater_cascade.param
 ../input/prms/sagehen_grid_prms_gw.params
+../input/prms/sagehen_grid_prms_lake.params
 ####
 modflow_name
 1
@@ -118,7 +119,7 @@ srunoff_smidx
 strmflow_module
 1
 4
-strmflow
+muskingum_lake
 ####
 statsON_OFF
 1
@@ -269,7 +270,7 @@ print_debug
 parameter_check_flag
 1
 1
-0
+1
 ####
 prms_warmup
 1
