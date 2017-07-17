@@ -1,0 +1,12 @@
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\bin\x86\Debug\passStr_C_Fortran.exe.config
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\bin\x86\Debug\passStr_C_Fortran.exe
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\bin\x86\Debug\passStr_C_Fortran.pdb
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\obj\x86\Debug\passStr_C_Fortran.exe
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\obj\x86\Debug\passStr_C_Fortran.pdb
+D:\EDM_LT\GitHub\gsflow.git\gsflow_examples.git\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\obj\x86\Debug\passStr_C_Fortran.csprojResolveAssemblyReference.cache
+C:\temp\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\bin\x86\Debug\passStr_C_Fortran.exe.config
+C:\temp\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\bin\x86\Debug\passStr_C_Fortran.exe
+C:\temp\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\bin\x86\Debug\passStr_C_Fortran.pdb
+C:\temp\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\obj\x86\Debug\passStr_C_Fortran.csprojResolveAssemblyReference.cache
+C:\temp\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\obj\x86\Debug\passStr_C_Fortran.exe
+C:\temp\call_fortran_from_C#\Test_String_Passing\passStr_C_Fortran\obj\x86\Debug\passStr_C_Fortran.pdb
