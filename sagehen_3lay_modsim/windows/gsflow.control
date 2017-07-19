@@ -4,7 +4,7 @@ GSFLOW Control File for the Sagehen Creek Watershed
 xyFileName
 1
 4
-..\FictionSagehen.xy
+..\FictionalSagehen.xy
 ####
 mappingFileName
 1
@@ -34,7 +34,7 @@ start_time
 end_time
 6
 1
-1996
+1982
 09
 30
 0
