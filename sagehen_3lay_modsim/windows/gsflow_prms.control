@@ -250,12 +250,12 @@ dispGraphsBuffSize
 executable_model
 1
 4
-../../bin/gsflow
+..\..\..\modsim.git\MODSIM_GSFLOW_C\bin\x86\Release\MODSIM_GSFLOW_C
 ####
 executable_desc
 1
 4
-GSFLOW with PRMS 5
+MODSIM-GSFLOW alpha version
 ####
 subbasin_flag
 1
