@@ -19,7 +19,7 @@ gwr_swale_flag
 model_mode
 1
 4
-MODSIM-GSFLOW
+GSFLOW-MODSIM
 ####
 start_time
 6
