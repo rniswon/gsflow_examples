@@ -234,11 +234,6 @@ var_save_file
 4
 ..\output\prms\prms.ic
 ####
-stats_output_file
-1
-4
-..\output\prms\stats.out
-####
 dispVar_names
 8
 4
@@ -293,12 +288,12 @@ dispGraphsBuffSize
 executable_model
 1
 4
-..\..\bin\gsflow
+..\..\..\bin\prms_5
 ####
 executable_desc
 1
 4
-GSFLOW with PRMS 5
+PRMS 5 with multiple HRU lakes
 ####
 subbasin_flag
 1
