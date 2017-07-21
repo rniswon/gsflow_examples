@@ -9,7 +9,7 @@ xyFileName
 mappingFileName
 1
 4
-..\Surface_water_network_layout_with_MODSIM_features.xlsm
+..\FictionalSagehen.mdb
 ####
 gwr_swale_flag
 1
@@ -19,7 +19,7 @@ gwr_swale_flag
 model_mode
 1
 4
-GSFLOW
+MODSIM-GSFLOW
 ####
 start_time
 6
