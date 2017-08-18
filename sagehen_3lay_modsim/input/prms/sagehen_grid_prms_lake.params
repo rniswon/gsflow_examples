@@ -1,7 +1,7 @@
 ####
 weir_len
 1
-numlakes
+nlake
 2
 2
 30
@@ -9,7 +9,7 @@ numlakes
 ####
 weir_coef
 1
-numlakes
+nlake
 2
 2
 2.7
@@ -17,7 +17,7 @@ numlakes
 ####
 lake_seep_elev
 1
-numlakes
+nlake
 2
 2
 6624.0
@@ -25,7 +25,7 @@ numlakes
 ####
 lake_vol_init
 1
-numlakes
+nlake
 2
 2
 867.0
@@ -33,7 +33,7 @@ numlakes
 ####
 elev_outflow
 1
-numlakes
+nlake
 2
 2
 6692.9
@@ -70,7 +70,7 @@ nsegment
 ####
 elevlake_init
 1
-numlakes
+nlake
 2
 2
 6667.0
@@ -78,7 +78,7 @@ numlakes
 ####
 lake_type
 1
-numlakes
+nlake
 2
 1
 4
@@ -93,7 +93,7 @@ one
 ####
 lake_qro
 1
-numlakes
+nlake
 2
 2
 100.0
@@ -101,7 +101,7 @@ numlakes
 ####
 lake_init
 1
-numlakes
+nlake
 2
 2
 1000.0
@@ -109,7 +109,7 @@ numlakes
 ####
 lake_coef
 1
-numlakes
+nlake
 2
 2
 0.1
@@ -117,7 +117,7 @@ numlakes
 ####
 lake_din1
 1
-numlakes
+nlake
 2
 2
 100.0
@@ -299,7 +299,7 @@ nsegment
 ####
 obsout_lake
 1
-numlakes
+nlake
 2
 1
 0

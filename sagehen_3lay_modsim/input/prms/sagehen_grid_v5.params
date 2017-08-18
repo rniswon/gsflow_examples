@@ -3,10 +3,10 @@ Version: 1.7
 ** Dimensions **
 ####
 nlake
-75
-####
-numlakes
 2
+####
+nlake_hrus
+75
 ####
 ngwcell
 5609
