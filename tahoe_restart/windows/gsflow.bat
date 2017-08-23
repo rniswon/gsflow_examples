@@ -1,5 +1,7 @@
 @ECHO OFF
 
+..\..\..\bin\gsflow .\Tahoe.control -set init_vars_from_file 0 -set gsflow_output_file ..\output\gsflow_cont.out -set csv_output_file ..\output\gsflow_cont.csv
+
 ..\..\..\bin\gsflow .\Tahoe.control -set end_time 1983,09,1,0,0,0 -set modflow_name ..\input\MODFLOW\tahoe1.nam -set gsflow_output_file ..\output\gsflow_1.out -set model_output_file ..\output\PRMS\prms1.out -set csv_output_file ..\output\gsflow_1.csv -set init_vars_from_file 0 -set var_save_file ..\output\PRMS\prms_ic_1
 ..\..\..\bin\gsflow .\Tahoe.control -set start_time 1983,09,02,0,0 -set end_time 1983,09,08,0,0,0 -set modflow_name ..\input\MODFLOW\tahoe2.nam -set gsflow_output_file ..\output\gsflow_2.out -set model_output_file ..\output\PRMS\prms2.out -set csv_output_file ..\output\gsflow_2.csv -set var_init_file ..\output\PRMS\prms_ic_1 -set var_save_file ..\output\PRMS\prms_ic_2
 ..\..\..\bin\gsflow .\Tahoe.control -set start_time 1983,09,09,0,0 -set end_time 1983,09,15,0,0,0 -set modflow_name ..\input\MODFLOW\tahoe3.nam -set gsflow_output_file ..\output\gsflow_3.out -set model_output_file ..\output\PRMS\prms3.out -set csv_output_file ..\output\gsflow_3.csv -set var_init_file ..\output\PRMS\prms_ic_2 -set var_save_file ..\output\PRMS\prms_ic_3
@@ -15,12 +17,8 @@
 ..\..\..\bin\gsflow .\Tahoe.control -set start_time 1983,11,18,0,0 -set end_time 1983,11,24,0,0,0 -set modflow_name ..\input\MODFLOW\tahoe13.nam -set gsflow_output_file ..\output\gsflow_13.out -set model_output_file ..\output\PRMS\prms13.out -set csv_output_file ..\output\gsflow_13.csv -set var_init_file ..\output\PRMS\prms_ic_12 -set var_save_file ..\output\PRMS\prms_ic_13
 ..\..\..\bin\gsflow .\Tahoe.control -set start_time 1983,11,25,0,0 -set end_time 1983,12,01,0,0,0 -set modflow_name ..\input\MODFLOW\tahoe14.nam -set gsflow_output_file ..\output\gsflow_14.out -set model_output_file ..\output\PRMS\prms14.out -set csv_output_file ..\output\gsflow_14.csv -set var_init_file ..\output\PRMS\prms_ic_13 -set var_save_file ..\output\PRMS\prms_ic_14
 ..\..\..\bin\gsflow .\Tahoe.control -set start_time 1983,12,02,0,0 -set modflow_name ..\input\MODFLOW\tahoe15.nam -set gsflow_output_file ..\output\gsflow_15.out -set model_output_file ..\output\prms\prms15.out -set csv_output_file ..\output\gsflow_15.csv -set var_init_file ..\output\PRMS\prms_ic_14 -set var_save_file ..\output\PRMS\prms_ic_15
-cd ..\..
-..\bin\CSV_merge_Tahoe
-cd tahoe_restart\windows
 
-..\..\..\bin\gsflow .\Tahoe.control -set init_vars_from_file 0 -set gsflow_output_file ..\output\gsflow_cont.out -set csv_output_file ..\output\gsflow_cont.csv
-
+..\..\..\bin\CSV_merge
 
 ECHO.
 ECHO Run complete. Please press enter when you want to continue.
