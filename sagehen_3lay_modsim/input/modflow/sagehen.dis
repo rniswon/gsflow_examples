@@ -1,7 +1,7 @@
 #Sagehen Simulation -- Example problem for MODFLOW with PSZ
 #  (File modified for version 1.1.00 release)
 3    71     79     2     4      2                NLAY  NROW   NCOL  NPER   ITMUNI  LENUNI
-0  0  0                                           LAYCBD
+0  0  0                                          LAYCBD
 CONSTANT 90.                                     DELR
 CONSTANT 90.                                     DELC
 INTERNAL  1.0  (FREE)  0                         TOP ELEVATION OF LAYER 1
