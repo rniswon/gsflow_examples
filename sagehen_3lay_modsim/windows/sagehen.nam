@@ -5,7 +5,7 @@ dis            11    ..\input\modflow\sagehen.dis
 upw            12    ..\input\modflow\sagehen.UPW
 uzf            14    ..\input\modflow\sagehen.uzf
 sfr            15    ..\input\modflow\sagehen.sfr
-#gage           16    ..\input\modflow\sagehen.gag
+gage           16    ..\input\modflow\sagehen.gag
 nwt            17    ..\input\modflow\sagehen.nwt
 lak            18    ..\input\modflow\sagehen.lak
 
@@ -30,4 +30,6 @@ data           69   ..\output\modflow\uz4_sagehen.out
 data           70   ..\output\modflow\uz5_sagehen.out
 data           71   ..\output\modflow\uz6_sagehen.out
 data           80   ..\output\modflow\sagehen_sfrseg13.out
+data           96   ..\output\modflow\Inline_Lake_gage.out
+data           97   ..\output\modflow\Offline_Lake_gage.out
 
