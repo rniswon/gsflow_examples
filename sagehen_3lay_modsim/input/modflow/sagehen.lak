@@ -1,7 +1,7 @@
 # Sagehen model modified for testing GSFLOW-MODSIM coupling
 # TABLEINPUT
       2     95                                                        #ITEM 1B: NLAKES,ILKCB
-  -0.75    100   0.00001  0.25                                        #ITEM 2:  THETA,[NSSITR],[SSCNCR],SURFDEP
+  -0.75    100  0.000001  0.25                                        #ITEM 2:  THETA,[NSSITR],[SSCNCR],SURFDEP
  2040.0 2019.0    2050.2    50                                        #ITEM 3:  STAGES [SSMN SSMX] Lake_Bathymetry_File_Unit_Number
  1954.0 1940.0    1961.3    51                                        #ITEM 3:  STAGES [SSMN SSMX] Lake_Bathymetry_File_Unit_Number
          1         1         0                                        #ITEM 4:  ITMP,ITMP1,LWRT

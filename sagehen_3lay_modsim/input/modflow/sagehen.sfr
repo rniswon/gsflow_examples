@@ -258,10 +258,10 @@ END
 17 1 -2  0 0.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH
 3.0                                      
 3.0                                      
-18 1  6 -1 0.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH
+18 1  6 -1 5000.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH
 3.0                                    #  This segment was formerly part of Seg 5, but after addition
 3.0                                    #  of the in-line reservoir, now appears as a new 3-reach seg
-19 1 16 -2 0.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH
+19 1 16 -2 0.1 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH
 3.0                                    #  This segment was formerly part of Seg 17, but after addition
 3.0                                    #  of the off-line reservoir, now appears as a new 2-reach seg
 20 1 -2 13   0 0.0 0.0 0.0 0.0 0.04    # NSEG ICALC OUTSEG IUPSEG IPRIOR FLOW RUNOFF ETSW PPTSW ROUGHCH  
