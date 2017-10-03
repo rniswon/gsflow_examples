@@ -1,4 +1,5 @@
-2                                # NUMGAGE
+3                                # NUMGAGE
+  20 6  98 6                     # "Diversion to offline reservoir" GAGESEG GAGERCH UNIT OUTTYPE
   -1   -96 3                     # "Inline" Reservoir  [GAGLAKE UNIT OUTTYPE]
   -2   -97 3                     # "Offline" Reservoir [GAGLAKE UNIT OUTTYPE]
   

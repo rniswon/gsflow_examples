@@ -32,4 +32,4 @@ data           71   ..\output\modflow\uz6_sagehen.out
 data           80   ..\output\modflow\sagehen_sfrseg13.out
 data           96   ..\output\modflow\Inline_Lake_gage.out
 data           97   ..\output\modflow\Offline_Lake_gage.out
-
+data           98   ..\output\modflow\sagehen_sfrseg20.out
