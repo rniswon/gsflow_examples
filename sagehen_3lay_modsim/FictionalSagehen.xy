@@ -571,7 +571,7 @@ ldescription
 lnum 14
 fromnum 14
 tonum 16
-lcost 75
+lcost 76
 select 0
 link
 lname NonStorage13_InStreamFlow
@@ -694,7 +694,7 @@ astr -85
 aposx 1022
 aposy 415
 annot
-astr +75
+astr +76
 aposx 972
 aposy 502
 annot
