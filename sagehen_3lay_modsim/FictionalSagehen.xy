@@ -127,7 +127,7 @@ labelpos
 1 316.5000
 select 0
 max_vol 52430000
-min_vol 90000
+min_vol 1270000
 start_vol 20000000
 reservoir_units 1000 m³
 effCurveName powerEff
