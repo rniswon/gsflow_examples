@@ -20,8 +20,8 @@ lake_seep_elev
 nlake
 2
 2
-6600.0
-6380.0
+6000.0
+6000.0
 ####
 lake_vol_init
 1
@@ -89,7 +89,7 @@ gw_seep_coef
 one
 1
 2
-0.001
+0.01
 ####
 lake_qro
 1
