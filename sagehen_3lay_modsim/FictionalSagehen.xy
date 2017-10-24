@@ -339,7 +339,7 @@ idstrmfr
 1-9 0
 tsdemand
 units m³/day
-10/01/1980 00:00:00	120000000
+10/01/1980 00:00:00	150000000
 node
 name NonStorage14
 desc 
@@ -403,7 +403,8 @@ pcapUnits acre-ft/month
 tsdemand
 units m³/day
 10/01/1980 00:00:00	40000000
-04/01/1981 00:00:00	120000000
+03/31/1981 00:00:00	120000000
+09/30/1981 00:00:00	40000000
 node
 name NonStorage17
 desc 
