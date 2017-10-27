@@ -47,32 +47,73 @@ muniDemand$Demand <- ifelse(muniDemand$is.in, inDem, offDem)
 
 muniDemand$DemDelivDiff <- muniDemand$MidptFlow - muniDemand$Demand
 
+minInstrmQ.plot <- minInstrmQ
+minInstrmQ.plot$consecHigh <- ifelse(minInstrmQ.plot$MidptFlow > 15000, 1, 0)
+minInstrmQ.plot$consecLow  <- ifelse(minInstrmQ.plot$MidptFlow < 15000, 1, 0)
+minInstrmQ.plot[1,'consecLow'] <- 0
+minInstrmQ.plot$abv <- c(0, diff(minInstrmQ.plot$consecHigh))
+minInstrmQ.plot$blw <- c(0, diff(minInstrmQ.plot$consecLow))
+minInstrmQ.plot$abv <- ifelse(minInstrmQ.plot$abv < 0, 0, minInstrmQ.plot$abv)
+minInstrmQ.plot$blw <- ifelse(minInstrmQ.plot$blw < 0, 0, minInstrmQ.plot$blw)
+runs_Hi <- data.frame(len=rle(minInstrmQ.plot$consecHigh)$lengths,
+                      val=rle(minInstrmQ.plot$consecHigh)$values,
+                      acc=cumsum(rle(minInstrmQ.plot$consecHigh)$lengths))
 
-png('D:/EDM_LT/GitHub/gsflow.git/gsflow_examples.git/sagehen_3lay_modsim/plots/res_storage_&_shortages.png',height=1000, width=1200, res=130)
-    
-    par(mar=c(0.5,7,3,6), mfrow=c(3,1))
+runs_Lo <- data.frame(len=rle(minInstrmQ.plot$consecLow)$lengths,
+                      val=rle(minInstrmQ.plot$consecLow)$values,
+                      acc=cumsum(rle(minInstrmQ.plot$consecLow)$lengths))
+
+num_poly_Hi <- sum(runs_Hi$val)
+num_poly_Lo <- sum(runs_Lo$val)
+
+ylim=c(0, 1.5 * max(inline_stor$Volume))
+
+png('D:/EDM_LT/GitHub/gsflow.git/gsflow_examples.git/sagehen_3lay_modsim/plots/res_storage_&_shortages_2.png',height=1000, width=1200, res=130)
+    layout(matrix(c(1,2), 2, 1, byrow = TRUE), c(8.25,8.25), c(4,2), TRUE)
+    # layout.show(nf)
+    par(mar=c(0.5,7,3,5))
     plot(as.Date(inline_stor$date_seq), inline_stor$Volume, typ='l', xlab='', xaxs='i', xaxt='n', ylab='', ylim=ylim, yaxt='n', yaxs='i', las=1)
-    axis(side=2, at=seq(0,6e6,by=1e6), labels=seq(0,6,by=1), las=1)
+    axis(side=2, at=seq(0,5e6,by=1e6), labels=seq(0,5,by=1), las=1)
     axis(side=4, at=seq(0,4000,by=1000) / 35.315 * 43560.17, labels=seq(0,4000,by=1000), las=1)
-    text(x=as.Date(tail(date_seq,n=1)) + 400, y=ylim[2]/2, expression(paste('Storage, ',ac%.%ft,sep='')), srt=-90, xpd=TRUE)
-    mtext(side=2,expression(paste('Storage, ',10^6,' ',m^3,sep='')), line=2.5,cex=0.8)
+    text(x=as.Date(tail(date_seq,n=1)) + 700, y=ylim[2]/3, expression(paste('Storage, ',ac%.%ft,sep='')), srt=-90, xpd=TRUE)
+    mtext(side=2,expression(paste('Storage, ',10^6,' ',m^3,sep='')), adj=0.35, line=2.5)
     polygon(x = in.poly.x, y=in.poly.y, col=rgb(1,0,0,0.25),border=NA, lwd=2)
     points(as.Date(inline_stor$date_seq), inline_stor$Volume, typ='l', col='red', lwd=2)
     polygon(x = off.poly.x, y=off.poly.y, col=rgb(0,0,1,0.25),border=NA, lwd=2)
     points(as.Date(offline_stor$date_seq), offline_stor$Volume, typ='l', col='blue', lwd=2)
-    legend(x = as.Date('1980-10-01'), y = 6.4e6, c('Inline Reservoir','Offline Reservoir'), pch=22, pt.bg=c(rgb(1,0,0,0.15,max=1),rgb(0,0,1,0.25,max=1)), col=c('red','blue'), pt.cex=1.5, bty='n',bg='white', xpd=TRUE)
+    legend(x = as.Date('1980-10-01'), y = ylim[2] + 1.5e6, c('Inline Reservoir','Offline Reservoir','Municipal Delivery Shortage'), pch=22, pt.bg=c(rgb(1,0,0,0.15,max=1),rgb(0,0,1,0.25,max=1), 'red'), col=c('red','blue','red'), pt.cex=1.5, bty='n',bg='white', xpd=TRUE)
     
-    par(mar=c(0.5,7,0.5,6))
-    plot(as.Date(muniDemand$Date), muniDemand$DemDelivDiff, col=rgb(1,0,0,0.25), typ='h', lend=1, las=1, ylim=c(-12200,0), yaxs='i', xaxs='i',xaxt='n', yaxt='n',xlab='',ylab='')
-    mtext(side=2,expression(paste('Municipal Supply Shortages, ',m^3~ d^-1,sep='')), line=4,cex=0.8)
-    axis(side=2, at=seq(-12000,0,by=2000), labels=c('12,000','10,000','8,000','6,000','4,000','2,000','0'), las=1)
+    #par(mar=c(0.5,7,0.5,6))
+    par(new=TRUE)
+    plot(as.Date(muniDemand$Date), muniDemand$DemDelivDiff, col=rgb(1,0,0,0.25), typ='h', lend=1, las=1, ylim=c(-40000,0), yaxs='i', xaxs='i',xaxt='n', yaxt='n',xlab='',ylab='')
+    mtext(side=2,expression(paste('Municipal Supply \nShortages, ',m^3~ d^-1,sep='')), adj=0.5, line=4)
+    axis(side=2, at=seq(-12000,0,by=4000), labels=c('-12,000', '-8,000', '-4,000', '0'), las=1)
     
-    par(mar=c(4.5,7,0.5,6))
-    plot(as.Date(minInstrmQ$Date), minInstrmQ$MidptFlow, typ='l', xlab='', xaxs='i', xaxt='n', ylab='', yaxs='i', log='y', las=1,ylim=c(2000,6e5))
+    par(mar=c(4.5,7,0.5,5))
+    plot(as.Date(minInstrmQ$Date), minInstrmQ$MidptFlow, typ='l', xlab='', xaxs='i', xaxt='n', yaxt='n', ylab='', yaxs='i', log='y', las=1,ylim=c(2000,6e5))
+     
+    for(i in seq(1:num_poly_Hi)){
+      strt <- runs_Hi[(i*2 - 1),'acc']
+      end  <- runs_Hi[(i*2),'acc']
+      poly.x <- c(minInstrmQ.plot[strt,'Date'], minInstrmQ.plot[(strt:end),'Date'], minInstrmQ.plot[end, 'Date'])
+      poly.y <- c(15000, minInstrmQ.plot[(strt:end),'MidptFlow'], 15000)
+      polygon(poly.x, poly.y, border=NA, col=rgb(0,1,0,0.15,max=1))
+    }
+    for(i in seq(1:num_poly_Lo)){
+      strt <- runs_Lo[(i*2 - 1),'acc']
+      end  <- runs_Lo[(i*2),'acc']
+      poly.x <- c(minInstrmQ.plot[strt,'Date'], minInstrmQ.plot[(strt:end),'Date'], minInstrmQ.plot[end, 'Date'])
+      poly.y <- c(15000, minInstrmQ.plot[(strt:end),'MidptFlow'], 15000)
+      polygon(poly.x, poly.y, border=NA, col=rgb(1,0,0,0.15,max=1))
+    }
+    
     axis(side=1, at=seq(as.Date('1980-10-01'), as.Date('1996-10-01'),by='year'), labels=NA)
-    axis(side=1, at=seq(as.Date('1980-10-01'), as.Date('1996-10-01'),by='2 year'), labels=format(seq(as.Date('1980-10-01'), as.Date('1996-10-01'),by='2 year'),'%Y'), las=2) 
-    mtext(side=2,expression(paste('Flow at Minimum Instream \nFlow Requirement,',m^3~ d^-1,sep='')), line=4, cex=0.8)
-    mtext(side=1,'Start of Water Year', line=3, cex=0.8)
+    axis(side=1, at=seq(as.Date('1980-10-01'), as.Date('1996-10-01'),by='2 year'), labels=format(seq(as.Date('1980-10-01'), as.Date('1996-10-01'),by='2 year'),'%Y'), las=2)
+    axis(side=2, at=c(2000,5000,15000,50000,200000,500000), labels=c('2,000','5,000','15,000','50,000','200,000','500,000'), las=1)
+    axis(side=4, at=c(2446.5,4893.1,14997.4,48931.0,122327.6,489310.5), labels=c(1,2,6.13,20,50,200), las=1)
+    mtext(side=2,expression(paste('Flow at Minimum Instream \nFlow Requirement,',m^3~ d^-1,sep='')), line=4)
+    text(x=as.Date(tail(date_seq,n=1)) + 700, y=6e5/2, expression(paste('Flow at Minimum Instream \nFlow Requirement,',ft^3~ sec^-1,sep='')), srt=-90, xpd=TRUE)
+    mtext(side=1,'Start of Water Year', line=3)
     
 dev.off()
 
