@@ -1,0 +1,52 @@
+11c11
+< ../inputs/MODFLOW_NWT/Shullcas.nam
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/inputs/MODFLOW_NWT/test2lay_py.nam
+16c16
+< ../outputs/PRMS_GSFLOW/gsflow.csv
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/outputs/PRMS/gsflow.csv
+31c31
+< ../outputs/PRMS_GSFLOW/gsflow.out
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/outputs/PRMS/gsflow.out
+66c66
+< ../inputs/PRMS_GSFLOW//empty.day
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/inputs/PRMS/empty.day
+71c71
+< ../inputs/PRMS_GSFLOW//Shullcas_GSFLOW.param
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/inputs/PRMS/Shullcas_GSFLOW.param
+76c76
+< ../outputs/PRMS_GSFLOW/prms.out
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/outputs/PRMS/prms.out
+96c96
+< ../inputs/PRMS_GSFLOW//precip.day
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/inputs/PRMS/precip.day
+101c101
+< ../inputs/PRMS_GSFLOW//humidity.day
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/inputs/PRMS/humidity.day
+111c111
+< ../inputs/PRMS_GSFLOW//tmax.day
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/inputs/PRMS/tmax.day
+116c116
+< ../inputs/PRMS_GSFLOW//tmin.day
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/inputs/PRMS/tmin.day
+166c166
+< ../outputs/PRMS_GSFLOW/Shullcas.statvar
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/outputs/PRMS/Shullcas.statvar
+246c246
+< ../outputs/PRMS_GSFLOW/Shullcas.ani
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/outputs/PRMS/Shullcas.ani
+270c270
+< ../outputs/PRMS_GSFLOW/init_cond_outfile
+---
+> /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5/outputs/PRMS/init_cond_outfile

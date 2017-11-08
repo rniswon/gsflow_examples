@@ -1,4 +1,0 @@
-# NWT Input File
-# Test Problem 3 for MODFLOW-NWT
- 1.000e-04   5.000e+02   100   1.000e-05  1  0  0  SPECIFIED         0.7      0.0001           0         0.1  0  
-  50  2  1       1e-10  10

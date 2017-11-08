@@ -1,0 +1,13 @@
+LIST          7 ../outputs/MODFLOW_NWT/test.lst 
+BAS6          8 ../inputs/MODFLOW_NWT/Shullcas.ba6
+UPW          25 ../inputs/MODFLOW_NWT/Shullcas.upw
+NWT          17 ../inputs/MODFLOW_NWT/Shullcas.nwt
+OC           22 ../inputs/MODFLOW_NWT/Shullcas.oc
+DIS          10 ../inputs/MODFLOW_NWT/Shullcas.dis
+UZF          12 ../inputs/MODFLOW_NWT/Shullcas.uzf
+SFR          13 ../inputs/MODFLOW_NWT/Shullcas.sfr
+IWRT         91 ../outputs/MODFLOW_NWT/Shullcas.out
+DATA(BINARY) 34 ../outputs/MODFLOW_NWT/test.bud 
+DATA(BINARY) 51 ../outputs/MODFLOW_NWT/testhead.dat 
+DATA(BINARY) 61 ../outputs/MODFLOW_NWT/uzf.dat 
+DATA         52 ../outputs/MODFLOW_NWT/ibound.dat 
