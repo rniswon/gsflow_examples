@@ -1,0 +1,165 @@
+
+WARNING: parameter adj_by_hru is ignored as it is not required.
+         Read from Parameter File: ../inputs/PRMS_GSFLOW/Shullcas_res_GSFLOW.param
+
+WARNING: parameter soil_moist_init is ignored as it is not required.
+         Read from Parameter File: ../inputs/PRMS_GSFLOW/Shullcas_res_GSFLOW.param
+
+WARNING: parameter soil_rechr_init is ignored as it is not required.
+         Read from Parameter File: ../inputs/PRMS_GSFLOW/Shullcas_res_GSFLOW.param
+
+WARNING: parameter ssstor_init is ignored as it is not required.
+         Read from Parameter File: ../inputs/PRMS_GSFLOW/Shullcas_res_GSFLOW.param
+
+WARNING: parameter print_freq is ignored as it is not required.
+         Read from Parameter File: ../inputs/PRMS_GSFLOW/Shullcas_res_GSFLOW.param
+
+WARNING: parameter print_type is ignored as it is not required.
+         Read from Parameter File: ../inputs/PRMS_GSFLOW/Shullcas_res_GSFLOW.param
+
+
+                           U.S. Geological Survey
+         Coupled Groundwater and Surface-water FLOW model (GSFLOW)
+                          Version 1.2.0 08/21/2015
+
+     An integration of the Precipitation-Runoff Modeling System (PRMS)
+     and the Modular Groundwater Model (MODFLOW-NWT and MODFLOW-2005)
+
+
+
+                         U.S. Geological Survey
+               Precipitation-Runoff Modeling System (PRMS)
+               Version 4.0.1 03/15/2015 Tag: 633 2015-09-11
+
+
+        Groundwater, streams, lakes and wells simulated by MODFLOW
+              Based on MODFLOW-NWT  Version: 1.11.0 08/08/2013
+                   and MODFLOW-2005 Version: 1.0.9 07/01/2014
+              Processes: GWF and OBS
+              Packages:  BAS, BCF, CHD, DE4, FHB, GAG, GHB,
+                         HFB, HUF, LAK LPF, MNW1, MNW2, NWT,
+                         PCG, GMG, SFR, SIP, UPW, UZF, WEL
+
+The following modules are available:
+
+     Process                   Modules
+--------------------------------------------------------------------------
+  Basin Definition: basin
+    Cascading Flow: cascade
+  Time Series Data: obs
+   Potet Solar Rad: soltab
+  Temperature Dist: temp_1sta, temp_laps, temp_dist2, climate_hru
+       Precip Dist: precip_1sta, precip_laps, precip_dist2,
+                    climate_hru
+Temp & Precip Dist: xyz_dist, ide_dist
+    Solar Rad Dist: ccsolrad, ddsolrad, climate_hru
+Transpiration Dist: transp_tindex, climate_hru, transp_frost
+      Potential ET: potet_hamon, potet_jh, potet_pan, climate_hru,
+                    potet_hs, potet_pt, potet_pm
+      Interception: intcp
+     Snow Dynamics: snowcomp
+    Surface Runoff: srunoff_smidx, srunoff_carea
+         Soil Zone: soilzone
+       Groundwater: gwflow
+Streamflow Routing: strmflow, strmflow_in_out, muskingum
+    Output Summary: basin_sum, subbasin, map_results, nhru_summary
+     Preprocessing: write_climate_hru, frost_date
+--------------------------------------------------------------------------
+
+
+==========================================================================
+Please give careful consideration to fixing all ERROR and WARNING messages
+==========================================================================
+
+
+Active modules listed in the order in which they are called:
+
+        Process                Module (source code version)
+==========================================================================
+GSFLOW Computation Order     gsflow_prms.f90, version: 7633 2015-09-11
+Basin Definition             basin.f90, version: 7588 2015-08-18
+Cascading Flow               cascade.f90, version: 7588 2015-08-18
+Common States and Fluxes     climateflow.f90, version: 7588 2015-08-18
+Potential Solar Radiation    soltab.f90, version: 7563 2015-08-04
+PRMS Set Time Variables      prms_time.f90, version: 7430 2015-06-10
+Time Series Data             obs.f90, version: 7488 2015-07-16
+Temperature Distribution     climate_hru.f90, version: 7588 2015-08-18
+Precipitation Distribution   climate_hru.f90, version: 7588 2015-08-18
+Solar Radiation Distribution ddsolrad.f90, version: 7530 2015-07-29
+Transpiration Distribution   transp_tindex.f90, version: 7117 2015-01-06
+Potential Evapotranspiration potet_pt.f90, version: 7430 2015-06-10
+Canopy Interception          intcp.f90, version: 7588 2015-08-18
+Snow Dynamics                snowcomp.f90, version: 7563 2015-08-04
+Surface Runoff               srunoff_smidx.f90, version: 7588 2015-08-18
+Soil Zone Computations       soilzone.f90, version: 7588 2015-08-18
+GSFLOW PRMS to MODFLOW       gsflow_prms2mf.f90, version: 7562 2015-08-04
+GSFLOW MODFLOW to PRMS       gsflow_mf2prms.f90, version: 7535 2015-07-29
+GSFLOW Output Budget Summary gsflow_budget.f90, version: 7508 2015-07-23
+GSFLOW Output CSV Summary    gsflow_sum.f90, version: 7589 2015-08-19
+GSFLOW MODFLOW main          gsflow_modflow.f, version: 7595 2015-09-01
+MODFLOW UZF-NWT Package      gwf2uzf1_NWT.f, version: 7578 2015-08-11
+MODFLOW SFR-NWT Package      gwf2sfr7_NWT.f, version: 7541 2015-07-30
+==========================================================================
+
+Using NAME file: ../inputs/MODFLOW_NWT/Shullcas_res.nam 
+
+WARNING: parameter hru_type is used by module basin but values are not
+         set in the Parameter File. Module default values are being used.
+
+WARNING: parameter radj_sppt is used by module ddsolrad but values are not
+         set in the Parameter File. Module default values are being used.
+
+WARNING: parameter radj_wppt is used by module ddsolrad but values are not
+         set in the Parameter File. Module default values are being used.
+
+WARNING: parameter radmax is used by module ddsolrad but values are not
+         set in the Parameter File. Module default values are being used.
+
+WARNING: parameter epan_coef is used by module intcp but values are not
+         set in the Parameter File. Module default values are being used.
+
+WARNING: parameter id_obsrunoff is used by module gsflow_sum but values are not
+         set in the Parameter File. Module default values are being used.
+
+Using Solver Package: NWT
+
+Run start date and time (yyyy/mm/dd hh:mm:ss): 2017/10/24  0:01:14
+
+modflow_time_zero: 2014/08/26
+
+Simulation time period: 2014/08/26 - 2015/08/25
+
+Using Control File: Shullcas_res_GSFLOW.control
+
+Using var_init_file: /media/gcng/STORAGE3A/GSFLOW/Shullcas_CrystalLauren5_works/outputs/PRMS_GSFLOW/init_cond_outfile
+
+Using var_save_file: ../outputs/PRMS_GSFLOW/init_cond_outfile
+
+Writing PRMS Water Budget File: ../outputs/PRMS_GSFLOW/prms.out
+
+Simulation time period: 2014/08/26 - 2015/08/25
+
+
+Percent difference between GVR mapping and active model domain:  0.0000000D+00
+
+Writing GSFLOW Water Budget File: ../outputs/PRMS_GSFLOW/gsflow.out
+
+Writing GSFLOW CSV File: ../outputs/PRMS_GSFLOW/gsflow.csv
+  
+
+ ***WARNING***
+Non-zero values were specified for precipitation,
+streamflow, and ET for streams in MODFLOW input files.
+These values are set to zero for GSFLOW simulations
+ Run end date and time (yyyy/mm/dd hh:mm:ss): 2017/10/24  0:01:44
+
+ Elapsed run time: 30.075 Seconds
+
+ Number of time steps:    365;  Number of non-convergence:   0
+ MF iterations:          2770;  SZ iterations:            2421
+ Average MF iterations:  7.59;  Average SZ iterations:    6.63
+ Maximum MF iterations:    13;  Maximum SZ iterations:      12
+
+ Steps SZ changing when MF converged:    2; mxsziter reached:   0
+
+  Normal termination of simulation
