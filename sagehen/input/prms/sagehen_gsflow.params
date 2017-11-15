@@ -7031,13 +7031,6 @@ nhru
 0.0
 0.0
 ####
-szconverge 4
-1
-one
-1
-2
-1.0E-5
-####
 covden_sum 15
 1
 nhru
@@ -30239,7 +30232,7 @@ circle_switch 15
 one
 1
 1
-1
+0
 ####
 slowcoef_sq 15
 1
@@ -30399,13 +30392,6 @@ one
 1
 1
 25
-####
-mnsziter 4
-1
-one
-1
-1
-7
 ####
 radj_wppt 0
 1
