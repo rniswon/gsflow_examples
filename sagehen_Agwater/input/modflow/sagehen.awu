@@ -1,0 +1,619 @@
+# AWU options
+options
+etdemand
+irrigation_sfr 1 35
+supplemental_well 35 1 
+irrigation_well 35 1 
+tabfiles 1 762
+maxwells 35  
+sfrlist -2 
+welllist -2
+wellirrlist -2
+sfrirrlist -2
+timeseries_sfr
+timeseries_well
+end
+# AWU time series
+time series
+sfr 24 105
+well 5 106
+end
+# AWU well list    
+well list
+52 762 2 39 54              #TABUNIT1 TABVAL1 TABLAY1 TABROW1 TABCOL1
+52 762 2 38 51
+52 762 2 38 52
+52 762 2 38 53
+52 762 2 38 55
+52 762 2 38 56
+52 762 2 38 57
+52 762 2 38 58
+52 762 2 38 59
+52 762 2 37 51
+52 762 2 37 52
+52 762 2 37 53
+52 762 2 37 56
+52 762 2 36 51
+52 762 2 36 57
+52 762 2 36 58
+52 762 2 36 59
+52 762 2 35 53
+52 762 2 35 54
+52 762 2 35 56
+52 762 2 35 57
+52 762 2 35 58
+52 762 2 35 59
+52 762 2 34 49
+52 762 2 34 50
+52 762 2 34 51
+52 762 2 34 52
+52 762 2 34 53
+52 762 2 34 55
+52 762 2 34 56
+52 762 2 34 57
+52 762 2 34 58
+52 762 2 34 59
+52 762 2 34 54
+52 762 2 34 54
+end
+# AWU stress period
+stress period 1  #steady state
+IRRSFR
+0
+IRRWELL
+0
+SUPWELL
+0
+END
+stress period 2  #October 1980
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 3 #November 1980
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 4 #December 1980
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 5       #Jan 1981
+IRRSFR
+-1
+IRRWELL
+-1 
+SUPWELL
+-1
+end
+stress period 6     #Feb 1981
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1     
+END
+stress period 7     #March 1981
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 8     #April 1981
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 9     #May 1981
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 10    #June 1981
+IRRSFR
+1                       NUMIRRSEGSP       
+24  35                  SEGID NUMCELLSEG 
+39 54 0.0 0.0286        IRRROW IRRCOL EFF_FACT FIELD_FACT
+38 51 0.0 0.0286
+38 52 0.0 0.0286
+38 53 0.0 0.0286
+38 55 0.0 0.0286
+38 56 0.0 0.0286
+38 57 0.0 0.0286
+38 58 0.0 0.0286
+38 59 0.0 0.0286
+37 51 0.0 0.0286
+37 52 0.0 0.0286
+37 53 0.0 0.0286
+37 56 0.0 0.0286
+36 51 0.0 0.0286
+36 57 0.0 0.0286
+36 58 0.0 0.0286
+36 59 0.0 0.0286
+35 53 0.0 0.0286
+35 54 0.0 0.0286
+35 56 0.0 0.0286
+35 57 0.0 0.0286
+35 58 0.0 0.0286
+35 59 0.0 0.0286
+34 49 0.0 0.0286
+34 50 0.0 0.0286
+34 51 0.0 0.0286
+34 52 0.0 0.0286
+34 53 0.0 0.0286
+34 55 0.0 0.0286
+34 56 0.0 0.0286
+34 57 0.0 0.0286
+34 58 0.0 0.0286
+34 59 0.0 0.0286
+34 54 0.0 0.0286
+34 54 0.0 0.0286
+IRRWELL
+35                  NUMWELLS
+1 1                 IRRWELLLID NUMCELLWELL
+39 54 0.0 1.0       IRRROW IRRCOL EFF_FACT FIELD_FACT
+2 1  
+38 51 0.0 1.0
+3 1  
+38 52 0.0 1.0
+4 1  
+38 53 0.0 1.0
+5 1  
+38 55 0.0 1.0
+6 1  
+38 56 0.0 1.0
+7 1  
+38 57 0.0 1.0
+8 1  
+38 58 0.0 1.0
+9 1  
+38 59 0.0 1.0
+10 1  
+37 51 0.0 1.0
+11 1  
+37 52 0.0 1.0
+12 1  
+37 53 0.0 1.0
+13 1  
+37 56 0.0 1.0
+14 1  
+36 51 0.0 1.0
+15 1  
+36 57 0.0 1.0
+16 1  
+36 58 0.0 1.0
+17 1  
+36 59 0.0 1.0
+18 1  
+35 53 0.0 1.0
+19 1  
+35 54 0.0 1.0
+20 1  
+35 56 0.0 1.0
+21 1  
+35 57 0.0 1.0
+22 1  
+35 58 0.0 1.0
+23 1  
+35 59 0.0 1.0
+24 1  
+34 49 0.0 1.0
+25 1  
+34 50 0.0 1.0
+26 1  
+34 51 0.0 1.0
+27 1  
+34 52 0.0 1.0
+28 1  
+34 53 0.0 1.0
+29 1  
+34 55 0.0 1.0
+30 1  
+34 56 0.0 1.0
+31 1  
+34 57 0.0 1.0
+32 1  
+34 58 0.0 1.0
+33 1  
+34 59 0.0 1.0
+34 1  
+34 54 0.0 1.0          
+35 1                   
+34 54 0.0 1.0               
+SUPWELL
+35                     NUMSUPWELLLSP      
+1 1                    SUPWELLLNUM   NUMSEGWELL
+24 1.0                 SEGWELLID    PCTSUP  
+2 1
+24 1.0
+3 1
+24 1.0
+4 1
+24 1.0
+5 1
+24 1.0
+6 1
+24 1.0
+7 1
+24 1.0
+8 1
+24 1.0
+9 1
+24 1.0
+10 1
+24 1.0
+11 1
+24 1.0
+12 1
+24 1.0
+13 1
+24 1.0
+14 1
+24 1.0
+15 1
+24 1.0
+16 1
+24 1.0
+17 1
+24 1.0
+18 1
+24 1.0
+19 1
+24 1.0
+20 1
+24 1.0
+21 1
+24 1.0
+22 1
+24 1.0
+23 1
+24 1.0
+24 1
+24 1.0
+25 1
+24 1.0
+26 1
+24 1.0
+27 1
+24 1.0
+28 1
+24 1.0
+29 1
+24 1.0
+30 1
+24 1.0
+31 1
+24 1.0
+32 1
+24 1.0
+33 1
+24 1.0
+34 1
+24 1.0
+35 1
+24 1.0
+END
+stress period 11    #July 1981
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 12    #August 1981
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 13    #Sept 1981
+IRRSFR
+0
+IRRWELL
+0
+SUPWELL
+0
+END 
+stress period 14    #Oct 1981
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 15    #Nov 1981
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 16    #Dec 1981
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 17    #Jan 1982
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+end
+stress period 18    #Feb 1982
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 19    #March 1982
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 20    #April 1982
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 21    #May 1982
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 22    #June 1982
+IRRSFR
+1                       NUMIRRSEGSP       
+24  35                  SEGID NUMCELLSEG 
+39 54 0.0 0.0286        IRRROW IRRCOL EFF_FACT FIELD_FACT
+38 51 0.0 0.0286
+38 52 0.0 0.0286
+38 53 0.0 0.0286
+38 55 0.0 0.0286
+38 56 0.0 0.0286
+38 57 0.0 0.0286
+38 58 0.0 0.0286
+38 59 0.0 0.0286
+37 51 0.0 0.0286
+37 52 0.0 0.0286
+37 53 0.0 0.0286
+37 56 0.0 0.0286
+36 51 0.0 0.0286
+36 57 0.0 0.0286
+36 58 0.0 0.0286
+36 59 0.0 0.0286
+35 53 0.0 0.0286
+35 54 0.0 0.0286
+35 56 0.0 0.0286
+35 57 0.0 0.0286
+35 58 0.0 0.0286
+35 59 0.0 0.0286
+34 49 0.0 0.0286
+34 50 0.0 0.0286
+34 51 0.0 0.0286
+34 52 0.0 0.0286
+34 53 0.0 0.0286
+34 55 0.0 0.0286
+34 56 0.0 0.0286
+34 57 0.0 0.0286
+34 58 0.0 0.0286
+34 59 0.0 0.0286
+34 54 0.0 0.0286
+34 54 0.0 0.0286
+IRRWELL
+35                  NUMWELLS
+1 1                 IRRWELLLID NUMCELLWELL
+39 54 0.0 1.0       IRRROW IRRCOL EFF_FACT FIELD_FACT
+2 1  
+38 51 0.0 1.0
+3 1  
+38 52 0.0 1.0
+4 1  
+38 53 0.0 1.0
+5 1  
+38 55 0.0 1.0
+6 1  
+38 56 0.0 1.0
+7 1  
+38 57 0.0 1.0
+8 1  
+38 58 0.0 1.0
+9 1  
+38 59 0.0 1.0
+10 1  
+37 51 0.0 1.0
+11 1  
+37 52 0.0 1.0
+12 1  
+37 53 0.0 1.0
+13 1  
+37 56 0.0 1.0
+14 1  
+36 51 0.0 1.0
+15 1  
+36 57 0.0 1.0
+16 1  
+36 58 0.0 1.0
+17 1  
+36 59 0.0 1.0
+18 1  
+35 53 0.0 1.0
+19 1  
+35 54 0.0 1.0
+20 1  
+35 56 0.0 1.0
+21 1  
+35 57 0.0 1.0
+22 1  
+35 58 0.0 1.0
+23 1  
+35 59 0.0 1.0
+24 1  
+34 49 0.0 1.0
+25 1  
+34 50 0.0 1.0
+26 1  
+34 51 0.0 1.0
+27 1  
+34 52 0.0 1.0
+28 1  
+34 53 0.0 1.0
+29 1  
+34 55 0.0 1.0
+30 1  
+34 56 0.0 1.0
+31 1  
+34 57 0.0 1.0
+32 1  
+34 58 0.0 1.0
+33 1  
+34 59 0.0 1.0
+34 1  
+34 54 0.0 1.0          
+35 1                   
+34 54 0.0 1.0               
+SUPWELL
+35                     NUMSUPWELLLSP      
+1 1                    SUPWELLLNUM   NUMSEGWELL
+24 1.0                 SEGWELLID    PCTSUP  
+2 1
+24 1.0
+3 1
+24 1.0
+4 1
+24 1.0
+5 1
+24 1.0
+6 1
+24 1.0
+7 1
+24 1.0
+8 1
+24 1.0
+9 1
+24 1.0
+10 1
+24 1.0
+11 1
+24 1.0
+12 1
+24 1.0
+13 1
+24 1.0
+14 1
+24 1.0
+15 1
+24 1.0
+16 1
+24 1.0
+17 1
+24 1.0
+18 1
+24 1.0
+19 1
+24 1.0
+20 1
+24 1.0
+21 1
+24 1.0
+22 1
+24 1.0
+23 1
+24 1.0
+24 1
+24 1.0
+25 1
+24 1.0
+26 1
+24 1.0
+27 1
+24 1.0
+28 1
+24 1.0
+29 1
+24 1.0
+30 1
+24 1.0
+31 1
+24 1.0
+32 1
+24 1.0
+33 1
+24 1.0
+34 1
+24 1.0
+35 1
+24 1.0
+END
+stress period 23    #July 1982
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 24    #Aug 1982
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
+stress period 25    #Sept 1982
+IRRSFR
+0
+IRRWELL
+0
+SUPWELL
+0
+END
+stress period 26    #Oct 1982
+IRRSFR
+-1
+IRRWELL
+-1
+SUPWELL
+-1
+END
