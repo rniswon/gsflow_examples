@@ -8,12 +8,18 @@ sfr            15    ..\input\modflow\sagehen.sfr
 gage           16    ..\input\modflow\sagehen.gag
 nwt            17    ..\input\modflow\sagehen.nwt
 lak            18    ..\input\modflow\sagehen.lak
+AWU            20    ..\input\modflow\sagehen.awu
 #
 #
 # Bathymetry Files
 #
 DATA           50    ..\input\modflow\LAK_InlineRes_Stage_Vol_Area_TABFILE.txt
 DATA           51    ..\input\modflow\LAK_OfflineRes_Stage_Vol_Area_TABFILE.txt
+# TabFiles
+#
+DATA           52    ..\input\modflow\well_tab.txt
+DATA           53    ..\input\modflow\seg24_tab.txt
+#
 #
 #
 # Output
