@@ -719,7 +719,7 @@ rdim
 3 2700
 title FictionalSagehen
 uselags 1
-maxit 100
+maxit 1000
 gw_cp 0.05
 flowth_cp 0.00005
 evap_cp 0.01
