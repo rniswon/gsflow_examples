@@ -333,6 +333,11 @@ nsegmentOut_freq
 1
 1
 ####
+nsegmentOut_format
+1
+1
+4
+####
 nsegmentOutVar_names
 2
 4
