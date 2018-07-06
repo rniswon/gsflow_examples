@@ -1,7 +1,8 @@
 # AWU options
 options
+IRRIGATION_SFR		1 	1
 supplemental_well 1 1  
-tabfiles 1 7000
+#tabfiles 1 7000
 maxwells 1  
 sfrlist -2 
 welllist -2
@@ -15,7 +16,7 @@ time series
 end
 # AWU well list    
 well list
-56 5846 3 41 75             #TABUNIT1 TABVAL1 WELLAY1 WELROW1 WELCOL1
+3 41 75 -12000.
 end
 # AWU stress period
 stress period 1  #steady state
@@ -23,8 +24,17 @@ SUPWELL
 1
 1 1
 22 1.0
+IRRSFR
+1
+22 1
+38 71 1.0 1.0
 END
 stress period 2  #
 SUPWELL
 -1
 END
+
+
+
+
+#56 5846 3 41 75             #TABUNIT1 TABVAL1 WELLAY1 WELROW1 WELCOL1  Just set max for sup well
