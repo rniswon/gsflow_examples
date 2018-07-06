@@ -8,7 +8,10 @@ sfr            15    ..\input\modflow\sagehen.sfr
 gage           16    ..\input\modflow\sagehen.gag
 nwt            17    ..\input\modflow\sagehen.nwt
 lak            18    ..\input\modflow\sagehen.lak
-awu            19    ..\input\modflow\sagehen.awu
+#awu            19    ..\input\modflow\sagehen.awu
+# time series files for AWU
+data           20    ..\output\modflow\sfrTimeSeries.out
+data           21    ..\output\modflow\WellTimeSeries.out
 #
 #
 # Bathymetry Files
