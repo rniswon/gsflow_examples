@@ -1,0 +1,24 @@
+#MODFLOW model file for testing MODSIM/MODFLOW coupling
+#IUPWCB HDRY NPUPW IPHDRY
+     40 -999     0      0
+ 1 1 1 1                                                    #LAYTYP(NLAY)
+ 2 2 2 2                                                    #LAYAVG(NLAY)
+ 1 1 1 1                                                    #CHANI(NLAY)
+ 1 1 1 1                                                    #LAYVKA(NLAY)
+ 0 0 0 0                                                    #LAYWET(NLAY)
+CONSTANT  4.00                                              #HK  - Layer 1
+CONSTANT  1.0                                               #VKA - Layer 1
+CONSTANT 1.0E-6                                             #Ss  - Layer 1
+CONSTANT 0.36                                               #Sy  - Layer 1
+CONSTANT  4.00                                              #HK  - Layer 2
+CONSTANT  1.0                                               #VKA - Layer 2
+CONSTANT 1.0E-6                                             #Ss  - Layer 2
+CONSTANT 0.36                                               #Sy  - Layer 2
+CONSTANT  4.00                                              #HK  - Layer 3
+CONSTANT  1.0                                               #VKA - Layer 3
+CONSTANT 1.0E-6                                             #Ss  - Layer 3
+CONSTANT 0.36                                               #Sy  - Layer 3
+CONSTANT  4.00                                              #HK  - Layer 4
+CONSTANT  1.0                                               #VKA - Layer 4
+CONSTANT 1.0E-6                                             #Ss  - Layer 4
+CONSTANT 0.36                                               #Sy  - Layer 4
