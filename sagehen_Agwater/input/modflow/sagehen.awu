@@ -1,6 +1,6 @@
 # AWU options
 options
-etdemand 2.0
+etdemand 1.0
 irrigation_sfr 1 34
 supplemental_well 34 1 
 irrigation_well 34 1 
