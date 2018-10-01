@@ -74,12 +74,12 @@ mapOutON_OFF
 gsflow_output_file
 1
 4
-..\output_PRMS_only\gsflow.out
+..\output_MS_PRMS\gsflow.out
 ####
 model_output_file
 1
 4
-..\output_PRMS_only\sagehen.out
+..\output_MS_PRMS\sagehen.out
 ####
 csvON_OFF
 1
@@ -89,7 +89,7 @@ csvON_OFF
 csv_output_file
 1
 4
-..\output_PRMS_only\prms_summary.csv
+..\output_MS_PRMS\prms_summary.csv
 ####
 temp_module
 1
@@ -129,7 +129,7 @@ init_vars_from_file
 var_init_file
 1
 4
-..\output_PRMS_only\prms.ic
+..\output_MS_PRMS\prms.ic
 ####
 save_vars_to_file
 1
@@ -139,7 +139,7 @@ save_vars_to_file
 var_save_file
 1
 4
-..\output_PRMS_only\prms.ic
+..\output_MS_PRMS\prms.ic
 ####
 dispVar_names
 8
@@ -251,7 +251,7 @@ basin_gwflow
 basinOutBaseFileName
 1
 4
-../output_PRMS_only/basin_out
+../output_MS_PRMS/basin_out
 ####
 nsegmentOutON_OFF
 1
@@ -278,7 +278,7 @@ seg_upstream_inflow
 nsegmentOutBaseFileName
 1
 4
-../output_PRMS_only/nsegment_out_
+../output_MS_PRMS/nsegment_out_
 ####
 nhruOutON_OFF
 1
@@ -307,4 +307,4 @@ hru_lateral_flow
 nhruOutBaseFileName
 1
 4
-../output_PRMS_only/nhru_out_
+../output_MS_PRMS/nhru_out_
