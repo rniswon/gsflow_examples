@@ -3,12 +3,12 @@ MODSIM-GSFLOW Control File for the Sagehen Creek Watershed
 xyFileName
 1
 4
-..\FictionalSagehen.xy
+..\FictionalSagehen_FlowThru_Adjustment.xy
 ####
 mappingFileName
 1
 4
-..\FictionalSagehen.mdb
+..\FictionalSagehen_FlowThru_Adjustment.mdb
 ####
 gwr_swale_flag
 1
@@ -354,7 +354,7 @@ nsegmentOutBaseFileName
 nhruOutON_OFF
 1
 1
-1
+0
 ####
 nhruOutVars
 1
