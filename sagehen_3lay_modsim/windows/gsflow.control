@@ -359,7 +359,7 @@ nhruOutON_OFF
 nhruOutVars
 1
 1
-5
+4
 ####
 nhruOut_freq
 1
@@ -367,13 +367,12 @@ nhruOut_freq
 5
 ####
 nhruOutVar_names
-5
+4
 4
 potet
 swrad
 tavgf
 hru_ppt
-hru_lateral_flow
 ####
 nhruOutBaseFileName
 1
