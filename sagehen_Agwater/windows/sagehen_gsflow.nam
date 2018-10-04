@@ -45,7 +45,4 @@ data           75   ..\output_GSFLOW_only\modflow\sagehen_sfrseg16.out
 data           76   ..\output_GSFLOW_only\modflow\sagehen_sfrseg17.out
 data           77   ..\output_GSFLOW_only\modflow\sagehen_sfrseg18.out
 data           78   ..\output_GSFLOW_only\modflow\sagehen_sfrseg5.out
-data           103   ..\output_GSFLOW_only\modflow\sagehensfr.out
-data           104   ..\output_GSFLOW_only\modflow\sagehensfret.out
-data           105   ..\output_GSFLOW_only\modflow\sagehenwellall.out
 
