@@ -8,7 +8,7 @@ sfr            15    ..\input\modflow\sagehen.sfr
 gage           16    ..\input\modflow\sagehen.gag
 nwt            17    ..\input\modflow\sagehen.nwt
 lak            18    ..\input\modflow\sagehen.lak
-AWU            20    ..\input\modflow\sagehen.awu
+AG            20    ..\input\modflow\sagehen.ag
 #
 #
 # Bathymetry Files
