@@ -134,7 +134,7 @@ SUPWELL
 STRESS PERIOD        10     #JUNE       1981
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -402,7 +402,7 @@ SUPWELL
 STRESS PERIOD        22     #JUNE       1982
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -670,7 +670,7 @@ SUPWELL
 STRESS PERIOD        34     #JUNE       1983
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -938,7 +938,7 @@ SUPWELL
 STRESS PERIOD        46     #JUNE       1984
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -1206,7 +1206,7 @@ SUPWELL
 STRESS PERIOD        58     #JUNE       1985
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -1474,7 +1474,7 @@ SUPWELL
 STRESS PERIOD        70     #JUNE       1986
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -1742,7 +1742,7 @@ SUPWELL
 STRESS PERIOD        82     #JUNE       1987
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -2010,7 +2010,7 @@ SUPWELL
 STRESS PERIOD        94     #JUNE       1988
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -2278,7 +2278,7 @@ SUPWELL
 STRESS PERIOD       106     #JUNE       1989
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -2546,7 +2546,7 @@ SUPWELL
 STRESS PERIOD       118     #JUNE       1990
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -2814,7 +2814,7 @@ SUPWELL
 STRESS PERIOD       130     #JUNE       1991
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -3082,7 +3082,7 @@ SUPWELL
 STRESS PERIOD       142     #JUNE       1992
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -3350,7 +3350,7 @@ SUPWELL
 STRESS PERIOD       154     #JUNE       1993
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -3618,7 +3618,7 @@ SUPWELL
 STRESS PERIOD       166     #JUNE       1994
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -3886,7 +3886,7 @@ SUPWELL
 STRESS PERIOD       178     #JUNE       1995
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -4154,7 +4154,7 @@ SUPWELL
 STRESS PERIOD       190     #JUNE       1996
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -4422,7 +4422,7 @@ SUPWELL
 STRESS PERIOD       202     #JUNE       1997
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -4690,7 +4690,7 @@ SUPWELL
 STRESS PERIOD       214     #JUNE       1998
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -4958,7 +4958,7 @@ SUPWELL
 STRESS PERIOD       226     #JUNE       1999
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -5226,7 +5226,7 @@ SUPWELL
 STRESS PERIOD       238     #JUNE       2000
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -5494,7 +5494,7 @@ SUPWELL
 STRESS PERIOD       250     #JUNE       2001
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -5762,7 +5762,7 @@ SUPWELL
 STRESS PERIOD       262     #JUNE       2002
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -6030,7 +6030,7 @@ SUPWELL
 STRESS PERIOD       274     #JUNE       2003
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -6298,7 +6298,7 @@ SUPWELL
 STRESS PERIOD       286     #JUNE       2004
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -6566,7 +6566,7 @@ SUPWELL
 STRESS PERIOD       298     #JUNE       2005
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -6834,7 +6834,7 @@ SUPWELL
 STRESS PERIOD       310     #JUNE       2006
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -7102,7 +7102,7 @@ SUPWELL
 STRESS PERIOD       322     #JUNE       2007
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
@@ -7370,7 +7370,7 @@ SUPWELL
 STRESS PERIOD       334     #JUNE       2008
 IRRDIVERSION                                                                                                                                                                                            
 2                           #NUMIRRSEGSP                                                                                                                                                                
-24 14   3 0.40                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
+24 14   5 0.25                    #SEGID NUMCELLSEG IRRPERIODSEG TRIGGERFACTSEG                                                                                                                         
 3056 0 0 0.071428571          #IRRHRU DUM EFF_FACT FIELD_FACT                                                                                                                                           
 2982 0 0 0.071428571                                                                                                                                                                                    
 2981 0 0 0.071428571                                                                                                                                                                                    
