@@ -1,9 +1,0 @@
-# WEL: Pump Demand node shortage, expected to further exacerbate minimum instream flow shortages
-OPTIONS
-  SPECIFY   0.1   55
-  TABFILES    1 7000
-END
-         1         0        # Dataset 2a: MXACTW IWELCB
-         1         0        # Data set 5: ITMP, NP 
-   56 5846    3   41   75   # Data set 6 replacement: TABUNIT TABVAL TABLAY TABROW TABCOL
- 
