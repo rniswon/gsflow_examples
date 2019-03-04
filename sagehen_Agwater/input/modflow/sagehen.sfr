@@ -286,7 +286,7 @@ END
 3.0                                    #  This segment is used to divert flow for agriculture (AWU Package).     
 3.0                                    #  It represents a lined canal and flow is evenly dist to fields 
 24 10075 53                             #  SEGNUM NUMVAL IUNIT
-25 10075 53                             #  SEGNUM NUMVAL IUNIT
+25 10075 54                             #  SEGNUM NUMVAL IUNIT
 -1 0 0
 -1 0 0
 -1 0 0
