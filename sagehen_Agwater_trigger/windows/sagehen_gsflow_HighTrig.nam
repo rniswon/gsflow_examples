@@ -10,7 +10,6 @@ nwt            17    ..\input\modflow\sagehen.nwt
 lak            18    ..\input\modflow\sagehen.lak
 AG            20    ..\input\modflow\sagehen_HighTrig.ag
 #
-#
 # Bathymetry Files
 #
 DATA           50    ..\input\modflow\LAK_InlineRes_Stage_Vol_Area_TABFILE.txt
