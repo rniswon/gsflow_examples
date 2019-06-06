@@ -12,6 +12,7 @@ from dateutil.parser import parse
 import matplotlib.dates as mdates
 from dateutil.relativedelta import relativedelta
 
+# Use USGS report styles
 rf = ReportFigures()
 rf.set_style()
 sys.path.append('..')
