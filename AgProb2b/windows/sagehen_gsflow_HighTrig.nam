@@ -1,0 +1,30 @@
+LIST            7    ..\output_GSFLOW_only\modflow\sagehen_HighTrig.list
+BAS6            8    ..\input\modflow\sagehen.bas
+oc              9    ..\input\modflow\sagehen.oc
+dis            11    ..\input\modflow\sagehen.dis
+upw            12    ..\input\modflow\sagehen.UPW
+uzf            14    ..\input\modflow\sagehen.uzf
+sfr            15    ..\input\modflow\sagehen.sfr
+gage           16    ..\input\modflow\sagehen.gag
+nwt            17    ..\input\modflow\sagehen.nwt
+AG            20    ..\input\modflow\sagehen_HighTrig.ag
+#
+# TabFiles
+#
+DATA           52    ..\input\modflow\well_tab.txt
+DATA           53    ..\input\modflow\seg18_tab.txt
+DATA           54    ..\input\modflow\seg19_tab.txt
+# time serious output files
+data           58   ..\output_GSFLOW_only\modflow\head_sagehen.out
+data           65   ..\output_GSFLOW_only\modflow\uz1_sagehen.out
+data           66   ..\output_GSFLOW_only\modflow\uz2_sagehen.out
+data           67   ..\output_GSFLOW_only\modflow\uz3_sagehen.out
+data           68   ..\output_GSFLOW_only\modflow\uz_tot_sagehen.out
+data           69   ..\output_GSFLOW_only\modflow\uz4_sagehen.out
+data           70   ..\output_GSFLOW_only\modflow\uz5_sagehen.out
+data           71   ..\output_GSFLOW_only\modflow\uz6_sagehen.out
+data           103   ..\output_GSFLOW_only\modflow\sagehensfr18_HighTrig.out
+data           104   ..\output_GSFLOW_only\modflow\sagehensfr19_HighTrig.out
+data           105   ..\output_GSFLOW_only\modflow\sagehensfret18_HighTrig.out
+data           106   ..\output_GSFLOW_only\modflow\sagehensfret19_HighTrig.out
+
