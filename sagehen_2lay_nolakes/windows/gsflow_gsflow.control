@@ -1,15 +1,5 @@
 Control File for a GSFLOW-only simulation, Sagehen Creek Watershed
 ####
-xyFileName
-1
-4
-..\FictionalSagehen.xy
-####
-mappingFileName
-1
-4
-..\FictionalSagehen.mdb
-####
 gwr_swale_flag
 1
 1
@@ -92,12 +82,12 @@ rpt_days
 gsflow_output_file
 1
 4
-..\output_GSFLOW_only\gsflow.out
+..\output\prms\gsflow.out
 ####
 model_output_file
 1
 4
-..\output_GSFLOW_only\prms\sagehen.out
+..\output\prms\sagehen.out
 ####
 gsf_rpt
 1
@@ -107,7 +97,7 @@ gsf_rpt
 csv_output_file
 1
 4
-..\output_GSFLOW_only\gsflow.csv
+..\output\prms\gsflow.csv
 ####
 temp_module
 1
@@ -147,7 +137,7 @@ init_vars_from_file
 var_init_file
 1
 4
-..\output_GSFLOW_only\prms\prms.ic
+..\output\prms\prms.ic
 ####
 save_vars_to_file
 1
@@ -157,7 +147,7 @@ save_vars_to_file
 var_save_file
 1
 4
-..\output_GSFLOW_only\prms\prms.ic
+..\output\prms\prms.ic
 ####
 dispVar_names
 8
@@ -268,7 +258,7 @@ basin_sroff
 basinOutBaseFileName
 1
 4
-../output_GSFLOW_only/basin_out
+../output/basin_out
 ####
 nsegmentOutON_OFF
 1
@@ -294,7 +284,7 @@ strm_seg_in
 nsegmentOutBaseFileName
 1
 4
-../output_GSFLOW_only/nsegment_out_
+../output/nsegment_out_
 ####
 nhruOutON_OFF
 1
@@ -322,4 +312,4 @@ hru_ppt
 nhruOutBaseFileName
 1
 4
-../output_GSFLOW_only/nhru_out_
+../output/nhru_out_

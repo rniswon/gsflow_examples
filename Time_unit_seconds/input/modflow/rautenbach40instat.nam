@@ -1,0 +1,25 @@
+# Name File for MODFLOW created on 01.10.2018 by ModelMuse Version 3.10.0.0
+LIST             11 ..\output\modflow\rautenbach40instat.lst 
+DIS              12 ..\input\modflow\rautenbach40instat.dis 
+BAS6             13 ..\input\modflow\rautenbach40instat.bas 
+OC               39 ..\input\modflow\rautenbach40instat.oc 
+DATA             37 ..\input\modflow\rautenbach40instat.fhd
+NWT              18 ..\input\modflow\rautenbach40instat.nwt 
+UPW              14 ..\input\modflow\rautenbach40instat.upw 
+#PCG              18 ..\input\modflow\rautenbach40instat.pcg 
+#LPF              14 ..\input\modflow\rautenbach40instat.lpf 
+CHD              17 ..\input\modflow\rautenbach40instat.chd 
+WEL              20 ..\input\modflow\rautenbach40instat.wel
+FHB             146 ..\input\modflow\rautenbach40instat.fhb
+SFR              29 ..\input\modflow\rautenbach40instat.sfr 
+DATA          205 ..\output\modflow\rautenbach40instat.sfrg1 
+DATA          206 ..\output\modflow\rautenbach40instat.sfrg2 
+DATA          207 ..\output\modflow\rautenbach40instat.sfrg3 
+DATA          208 ..\output\modflow\rautenbach40instat.sfrg4 
+DATA          209 ..\output\modflow\rautenbach40instat.sfrg5
+UZF              31 ..\input\modflow\rautenbach40instat.uzf 
+DATA          265 ..\output\modflow\rautenbach40instat.uzfg 
+GAGE             40 ..\input\modflow\rautenbach40instat.gag 
+HOB              41 ..\input\modflow\rautenbach40instat.ob_hob 
+DATA             42 ..\input\modflow\rautenbach40instat.hob_out 
+

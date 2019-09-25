@@ -1,0 +1,6 @@
+3                        # NUMGAGE
+  16   1  75 6           # GAGESEG GAGERCH UNIT OUTTYPE   
+  17   6  76 6           # GAGESEG GAGERCH UNIT OUTTYPE   
+   5   1  78 6           # GAGESEG GAGERCH UNIT OUTTYPE   
+  
+

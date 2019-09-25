@@ -1,0 +1,17 @@
+# Model AgProb1
+# Niswonger, R.G., An agricultural water use package for MODFLOW and GSFLOW
+# NAD_1983_UTM_Zone_11N
+
+upper_left  -13129481.211 5167630.187
+upper_right -13092804.981 5167630.187
+lower_right -13092804.981 5114991.246
+lower_left  -13129481.211 5114991.246
+
+# Model AgProb2
+# Niswonger, R.G., An agricultural water use package for MODFLOW and GSFLOW
+# NAD_1983_UTM_Zone_11N
+
+upper_left  214382.682 4373187.833
+upper_right 221444.108 4373157.142
+lower_right 221438.816 4366817.712
+lower_left  214385.011 4366828.296
