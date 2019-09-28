@@ -1740,7 +1740,8 @@ noTimeStepsInMemorygwinfiltra 1
 spcl_rpts 0
 part_flows 0
 ver7OutputFiles 0
-ver8MSDBOutputFiles 1
+ver8MSDBOutputFiles 0
+SQLiteOutputFiles 1
 DeleteTempVer8OutputFiles 1
 noTimeStepsInMemory 12
 hydroStateOUT 1
