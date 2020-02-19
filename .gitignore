@@ -23,21 +23,21 @@
 
 # Executables
 *.exe
-*.out
+#*.out
 *.app
 
 # MODFLOW output files
-*.hobs
-*.cbc
-*.hed
-*.out
-*.list
-*.lst
-*.csv
-*.monthly
-*.total
-*.yearly
-*.csv
+#*.hobs
+#*.cbc
+#*.hed
+#*.out
+#*.list
+#*.lst
+#*.csv
+#*.monthly
+#*.total
+#*.yearly
+#*.csv
 
 
 MF_NWT/MF_NWT/Release/
