@@ -292,7 +292,7 @@ prms_warmup
 basinOutON_OFF
 1
 1
-1
+0
 ####
 basinOutVars
 1
@@ -323,7 +323,7 @@ basinOutBaseFileName
 nsegmentOutON_OFF
 1
 1
-1
+0
 ####
 nsegmentOutVars
 1
@@ -380,6 +380,11 @@ nhruOutBaseFileName
 ../output/nhru_out_modsim_
 ####
 nsubOutON_OFF
+1
+1
+0
+####
+csvON_OFF
 1
 1
 0
