@@ -1,0 +1,45 @@
+LIST            7    ..\output_GSFLOW_only\modflow\sagehen.list
+BAS6            8    ..\input\modflow\sagehen.bas
+oc              9    ..\input\modflow\sagehen.oc
+dis            11    ..\input\modflow\sagehen.dis
+upw            12    ..\input\modflow\sagehen.UPW
+uzf            14    ..\input\modflow\sagehen.uzf
+sfr            15    ..\input\modflow\sagehen.sfr
+gage           16    ..\input\modflow\sagehen.gag
+nwt            17    ..\input\modflow\sagehen.nwt
+lak            18    ..\input\modflow\sagehen.lak
+AG            19    ..\input\modflow\sagehen.ag
+#
+#
+# Bathymetry Files
+#
+DATA           50    ..\input\modflow\LAK_InlineRes_Stage_Vol_Area_TABFILE.txt
+DATA           51    ..\input\modflow\LAK_OfflineRes_Stage_Vol_Area_TABFILE.txt
+DATA           53    ..\input\modflow\seg24_tab.txt
+DATA           54    ..\input\modflow\seg25_tab.txt
+#
+#
+# Output
+#
+#DATA(BINARY)   92   ..\output_GSFLOW_only\modflow\UZF_RESTART.uz
+#DATA(BINARY)   94   ..\output_GSFLOW_only\modflow\ST.HDS
+#DATA(BINARY)   95   ..\output_GSFLOW_only\modflow\sagehenV3.cbc
+data           58   ..\output_GSFLOW_only\modflow\head_sagehen.out
+data           65   ..\output_GSFLOW_only\modflow\uz1_sagehen.out
+data           66   ..\output_GSFLOW_only\modflow\uz2_sagehen.out
+data           67   ..\output_GSFLOW_only\modflow\uz3_sagehen.out
+data           68   ..\output_GSFLOW_only\modflow\uz_tot_sagehen.out
+data           69   ..\output_GSFLOW_only\modflow\uz4_sagehen.out
+data           70   ..\output_GSFLOW_only\modflow\uz5_sagehen.out
+data           71   ..\output_GSFLOW_only\modflow\uz6_sagehen.out
+data           80   ..\output_GSFLOW_only\modflow\sagehen_sfrseg13.out
+data           96   ..\output_GSFLOW_only\modflow\Inline_Lake_gage.out
+data           97   ..\output_GSFLOW_only\modflow\Offline_Lake_gage.out
+data           72   ..\output_GSFLOW_only\modflow\sagehen_sfrseg20.out
+data           73   ..\output_GSFLOW_only\modflow\sagehen_sfrseg19.out
+data           74   ..\output_GSFLOW_only\modflow\sagehen_sfrseg22.out
+data           75   ..\output_GSFLOW_only\modflow\sagehen_sfrseg16.out
+data           76   ..\output_GSFLOW_only\modflow\sagehen_sfrseg17.out
+data           77   ..\output_GSFLOW_only\modflow\sagehen_sfrseg18.out
+data           78   ..\output_GSFLOW_only\modflow\sagehen_sfrseg5.out
+
