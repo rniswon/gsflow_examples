@@ -6,6 +6,9 @@
   17   6  76 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Trib Inflow to offline reservoir"
   18   1  77 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Release from inline reservoir"
    5   1  78 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Inflow to inline reservoir"
+   9   9  79 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg  9 (above inline reservoir)"
+  10  24  80 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg 10 (above inline reservoir)"
+  12  25  81 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg 12 (above inline reservoir)"
   -1     -96 3           # [GAGLAKE UNIT OUTTYPE]         "Inline" Reservoir"
   -2     -97 3           # [GAGLAKE UNIT OUTTYPE]         "Offline" Reservoir"
   

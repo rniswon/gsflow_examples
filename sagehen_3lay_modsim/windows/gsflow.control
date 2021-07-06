@@ -55,6 +55,16 @@ data_file
 4
 ..\input\prms\sagehen.data
 ####
+cascade_flag
+1
+1
+1
+####
+cascadegw_flag
+1
+1
+2
+####
 param_file
 5
 4
@@ -67,7 +77,7 @@ param_file
 modflow_name
 1
 4
-.\sagehen_with_pumping.nam
+.\sagehen.nam
 ####
 mapOutVar_names
 1

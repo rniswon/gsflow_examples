@@ -39,4 +39,7 @@ data           75   ..\output\modflow\sagehen_sfrseg16.out
 data           76   ..\output\modflow\sagehen_sfrseg17.out
 data           77   ..\output\modflow\sagehen_sfrseg18.out
 data           78   ..\output\modflow\sagehen_sfrseg5.out
+data           79   ..\output\modflow\sagehen_sfrseg9.out
+data           80   ..\output\modflow\sagehen_sfrseg10.out
+data           81   ..\output\modflow\sagehen_sfrseg12.out
 
