@@ -1,9 +1,11 @@
-inline_stor  <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_investigate/gsflow_examples.git/sagehen_3lay_modsim/output/modflow/Inline_Lake_gage.out', header=FALSE, skip=2, col.names=c('Time', 'Stage(H)', 'Volume', 'Precip.', 'Evap', 'LAK-Runoff', 'UZFRunoff', 'GWInflw', 'GWOutflw', 'LAKtoUZF', 'SWInflw', 'SWOutflw', 'Withdrawal', 'LakeInflx', 'TotalCond', 'DelHTS', 'DelVTS', 'Del-H-Cum', 'DelVCum', 'CumPrcntErr'))
-inline_rel   <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_investigate/gsflow_examples.git/sagehen_3lay_modsim/output/modflow/sagehen_sfrseg18.out', header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
-offline_stor <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_investigate/gsflow_examples.git/sagehen_3lay_modsim/output/modflow/Offline_Lake_gage.out', header=FALSE, skip=2, col.names=c('Time', 'Stage(H)', 'Volume', 'Precip.', 'Evap', 'LAK-Runoff', 'UZFRunoff', 'GWInflw', 'GWOutflw', 'LAKtoUZF', 'SWInflw', 'SWOutflw', 'Withdrawal', 'LakeInflx', 'TotalCond', 'DelHTS', 'DelVTS', 'Del-H-Cum', 'DelVCum', 'CumPrcntErr'))
-minInstrmQ   <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_investigate/gsflow_examples.git/sagehen_3lay_modsim/output/modflow/sagehen_sfrseg16.out', header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
-muniDemand   <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_investigate/gsflow_examples.git/sagehen_3lay_modsim/output/modflow/sagehen_sfrseg22.out', header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
-seg20        <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_investigate/gsflow_examples.git/sagehen_3lay_modsim/output/modflow/sagehen_sfrseg20.out', header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
+pth <- 'D:/edm_lt/github/modsim-gsflow_dev/gsflow_examples.git/sagehen_3lay_modsim/output/modflow'
+
+inline_stor  <- read.table(paste(pth, 'Inline_Lake_gage.out', sep='/'), header=FALSE, skip=2, col.names=c('Time', 'Stage(H)', 'Volume', 'Precip.', 'Evap', 'LAK-Runoff', 'UZFRunoff', 'GWInflw', 'GWOutflw', 'LAKtoUZF', 'SWInflw', 'SWOutflw', 'Withdrawal', 'LakeInflx', 'TotalCond', 'DelHTS', 'DelVTS', 'Del-H-Cum', 'DelVCum', 'CumPrcntErr'))
+inline_rel   <- read.table(paste(pth, 'sagehen_sfrseg18.out', sep='/'), header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
+offline_stor <- read.table(paste(pth, 'Offline_Lake_gage.out', sep='/'), header=FALSE, skip=2, col.names=c('Time', 'Stage(H)', 'Volume', 'Precip.', 'Evap', 'LAK-Runoff', 'UZFRunoff', 'GWInflw', 'GWOutflw', 'LAKtoUZF', 'SWInflw', 'SWOutflw', 'Withdrawal', 'LakeInflx', 'TotalCond', 'DelHTS', 'DelVTS', 'Del-H-Cum', 'DelVCum', 'CumPrcntErr'))
+minInstrmQ   <- read.table(paste(pth, 'sagehen_sfrseg16.out', sep='/'), header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
+muniDemand   <- read.table(paste(pth, 'sagehen_sfrseg22.out', sep='/'), header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
+seg20        <- read.table(paste(pth, 'sagehen_sfrseg20.out', sep='/'), header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
 
 inline_stor_pump  <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_pumping/gsflow_examples.git/sagehen_3lay_modsim/output/modflow/Inline_Lake_gage.out', header=FALSE, skip=2, col.names=c('Time', 'Stage(H)', 'Volume', 'Precip.', 'Evap', 'LAK-Runoff', 'UZFRunoff', 'GWInflw', 'GWOutflw', 'LAKtoUZF', 'SWInflw', 'SWOutflw', 'Withdrawal', 'LakeInflx', 'TotalCond', 'DelHTS', 'DelVTS', 'Del-H-Cum', 'DelVCum', 'CumPrcntErr'))
 inline_rel_pump   <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_pumping/gsflow_examples.git/sagehen_3lay_modsim/output/modflow/sagehen_sfrseg18.out', header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
@@ -13,8 +15,8 @@ muniDemand_pump   <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_pumping/
 seg20_pump        <- read.table('C:/temp/MS-GSF_troubleshoot/gsflow.git_pumping/gsflow_examples.git/sagehen_3lay_modsim/output/modflow/sagehen_sfrseg20.out', header=FALSE, skip=2, col.names=c('Time', 'Stage', 'Depth', 'GWHead', 'MidptFlow', 'StreamLoss', 'GWRech', 'ChngeUZStor', 'VolUZStor'))
 
 
-date_seq <- seq(as.Date('1980-10-01'), as.Date('1996-10-01'), by='day')
-date_seq_LAK <- seq(as.Date('1980-09-30'), as.Date('1996-10-01'), by='day')
+date_seq <- seq(as.Date('1980-10-01'), as.Date('1996-09-30'), by='day')
+date_seq_LAK <- seq(as.Date('1980-09-30'), as.Date('1996-09-30'), by='day')
 
 # to be deleted, but use for now until model runs all the way through
 inline_stor  <- cbind(date_seq_LAK, inline_stor)
@@ -100,7 +102,7 @@ num_poly_Lo <- sum(runs_Lo$val)
 ylim=c(0, 1.5 * max(inline_stor$Volume))
 
 # -------------------------------------------------
-# This bit of code for the normal run (no pumping)
+# This bit of code for the normal run (with pumping)
 # -------------------------------------------------
 
 muniDemand_pump$inSea <- as.numeric(format(as.Date(muniDemand_pump$Date),"%m"))
@@ -131,7 +133,8 @@ num_poly_Lo_pump <- sum(runs_Lo_pump$val)
 ylim=c(0, 1.5 * max(inline_stor_pump$Volume))
 
 # The next plot is for a normal operations/hydrology run, no pumping involved
-png('D:/EDM_LT/GitHub/gsflow.git/gsflow_examples.git/sagehen_3lay_modsim/plots/res_storage_&_shortages_2_with_ET.png',height=1000, width=1200, res=130)
+pth_plt <- 'D:/edm_lt/github/modsim-gsflow_dev/gsflow_examples.git/sagehen_3lay_modsim/plots'
+png(paste(pth_plt, 'res_storage_&_shortages_4_with_ET.png', sep='/'), height=1000, width=1200, res=130)
     layout(matrix(c(1,2), 2, 1, byrow = TRUE), c(8.25,8.25), c(4,2), TRUE)
     # layout.show(nf)
     par(mar=c(0.5,7,3,5))
