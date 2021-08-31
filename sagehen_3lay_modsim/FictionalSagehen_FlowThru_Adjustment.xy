@@ -602,7 +602,7 @@ hcapacity_units m³/month
 resbali
 resbaliprio
 0 -50
-1 -400900
+1 -600900
 resbalpcts
 0 100
 1 10
@@ -1760,7 +1760,7 @@ rdim
 3 2700
 title FictionalSagehen_FlowThru_Adjustment
 uselags 1
-maxit 7000
+maxit 1000
 gw_cp 0.1
 flowth_cp 0.05
 evap_cp 0.01
