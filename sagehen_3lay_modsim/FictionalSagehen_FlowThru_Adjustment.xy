@@ -602,7 +602,7 @@ hcapacity_units m³/month
 resbali
 resbaliprio
 0 -50
-1 -600900
+1 -400900
 resbalpcts
 0 100
 1 10
@@ -1666,6 +1666,9 @@ ldescription
 lnum 24
 fromnum 24
 tonum 7
+maxCap
+units 1000 m³/day
+10/01/1980 00:00:00	0
 select 0
 link
 lname NonStorage3_NonStorage18
