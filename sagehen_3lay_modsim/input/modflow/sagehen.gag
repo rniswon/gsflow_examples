@@ -1,14 +1,20 @@
-12                        # NUMGAGE
+18                        # NUMGAGE
   20   6  72 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Diversion to offline reservoir"
   19   1  73 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Release from offline reservoir"
   22   1  74 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Diversion to Municipality"
   16   1  75 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Min Instream Flow Pt"
+  16   2  47 6           # GAGESEG GAGERCH UNIT OUTTYPE   "End of Min Instream Flow segment"
   17   6  76 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Trib Inflow to offline reservoir"
   18   1  77 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Release from inline reservoir"
    5   1  78 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Inflow to inline reservoir"
    9   9  79 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg  9 (above inline reservoir)"
   10  24  82 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg 10 (above inline reservoir)"
   12  25  83 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg 12 (above inline reservoir)"
+   6   9  84 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg  6 (on the mainstem)
+  11   8  85 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg 11 (on the mainstem)
+  13   4  44 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg 12 (on the mainstem)
+  21   5  45 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg 21 (on the mainstem)
+  23   5  46 6           # GAGESEG GAGERCH UNIT OUTTYPE   "Outflow from iseg 23 (on the mainstem)
   -1     -96 3           # [GAGLAKE UNIT OUTTYPE]         "Inline" Reservoir"
   -2     -97 3           # [GAGLAKE UNIT OUTTYPE]         "Offline" Reservoir"
   
