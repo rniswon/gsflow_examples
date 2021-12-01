@@ -158,7 +158,7 @@ png(paste(pth_plt, 'res_storage_&_shortages_4_with_ET.png', sep='/'), height=100
     axis(side=2, at=seq(-12000,0,by=4000), labels=c('-12,000', '-8,000', '-4,000', '0'), las=1)
     
     par(mar=c(4.5,7,0.5,5))
-    plot(as.Date(minInstrmQ$Date), minInstrmQ$MidptFlow, typ='l', xlab='', xaxs='i', xaxt='n', yaxt='n', ylab='', yaxs='i', log='y', las=1,ylim=c(2000,6e5))
+    plot(as.Date(minInstrmQ$Date), minInstrmQ$MidptFlow, typ='l', xlab='', xaxs='i', xaxt='n', yaxt='n', ylab='', yaxs='i', log='y', las=1,ylim=c(500,6e5))
      
     for(i in seq(1:num_poly_Hi)){
       strt <- runs_Hi[(i*2 - 1),'acc']
@@ -177,8 +177,8 @@ png(paste(pth_plt, 'res_storage_&_shortages_4_with_ET.png', sep='/'), height=100
     
     axis(side=1, at=seq(as.Date('1980-10-01'), as.Date('1996-10-01'),by='year'), labels=NA)
     axis(side=1, at=seq(as.Date('1980-10-01'), as.Date('1996-10-01'),by='2 year'), labels=format(seq(as.Date('1980-10-01'), as.Date('1996-10-01'),by='2 year'),'%Y'), las=2)
-    axis(side=2, at=c(2000,5000,15000,50000,200000,500000), labels=c('2,000','5,000','15,000','50,000','200,000','500,000'), las=1)
-    axis(side=4, at=c(2446.5,4893.1,14997.4,48931.0,122327.6,489310.5), labels=c(1,2,6.13,20,50,200), las=1)
+    axis(side=2, at=c(1000, 2000,5000,15000,50000,200000,500000), labels=c('1,000','2,000','5,000','15,000','50,000','200,000','500,000'), las=1)
+    axis(side=4, at=c(1223.3,2446.5,4893.1,14997.4,48931.0,122327.6,489310.5), labels=c(0.5,1,2,6.13,20,50,200), las=1)
     mtext(side=2,expression(paste('Flow at Minimum Instream \nFlow Requirement,',m^3~ d^-1,sep='')), line=4)
     text(x=as.Date(tail(date_seq,n=1)) + 700, y=6e5/2, expression(paste('Flow at Minimum Instream \nFlow Requirement,',ft^3~ sec^-1,sep='')), srt=-90, xpd=TRUE)
     mtext(side=1,'Start of Water Year', line=3)
