@@ -98,6 +98,8 @@ runs_Lo <- data.frame(len=rle(minInstrmQ.plot$consecLow)$lengths,
 
 num_poly_Hi <- sum(runs_Hi$val)
 num_poly_Lo <- sum(runs_Lo$val)
+# Added 12/1/2021: The following line clears up a plotting issue brought about by 0 flow at the min instream Q location.
+minInstrmQ.plot$MidptFlow <- ifelse(minInstrmQ.plot$MidptFlow==0,0.0001, minInstrmQ.plot$MidptFlow)
 
 ylim=c(0, 1.5 * max(inline_stor$Volume))
 
