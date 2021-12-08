@@ -1,25 +1,4 @@
 ####
-szconverge
-1
-one
-1
-2
-0.0001
-####
-mxsziter
-1
-one
-1
-1
-50
-####
-nrow 0
-1
-one
-1
-1
-71
-####
 id_obsrunoff
 1
 one
