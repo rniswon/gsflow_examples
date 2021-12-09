@@ -1,7 +1,7 @@
-xyVersion 8.5.1
+xyVersion 8.6
 numhydtables 0
-n_links 28
-n_nodes 27
+n_links 37
+n_nodes 36
 n_lags 5
 ExtManualStorageRightActive False
 ExtStorageRightActive False
@@ -45,19 +45,21 @@ efft
 3 1
 node
 name NonStorage
+nuid f6321700-c870-4b09-b4bb-06faee5649c2
 desc 
 num 1
 ntype 2
 out 1
 pos
-0 90.0000
-1 521.0000
+0 -9.2000
+1 532.4000
 labelpos
-0 90.0000
-1 529.5000
+0 -9.2000
+1 540.9000
 select 0
 node
 name NonStorage1
+nuid 9f690b6d-ae82-433f-8639-b7ca0dae9a2b
 desc 
 num 2
 ntype 2
@@ -65,27 +67,29 @@ in 1
 in 2
 out 3
 pos
-0 301.0000
-1 421.0000
+0 180.7000
+1 425.1000
 labelpos
-0 297.0000
-1 394.5000
+0 176.7000
+1 398.6000
 select 0
 node
 name NonStorage2
+nuid 7ed65401-9f15-42c3-996b-84a590ce2654
 desc 
 num 3
 ntype 2
 out 2
 pos
-0 148.0000
-1 394.0000
+0 48.8000
+1 372.0000
 labelpos
-0 148.0000
-1 402.5000
+0 51.2000
+1 348.0000
 select 0
 node
 name NonStorage3
+nuid e1cfbf09-28fd-492c-914c-f636d3264849
 desc 
 num 4
 ntype 2
@@ -93,38 +97,40 @@ in 3
 in 4
 out 25
 pos
-0 374.0000
-1 404.0000
+0 261.8000
+1 417.0000
 labelpos
-0 372.0000
-1 378.5000
+0 259.8000
+1 391.5000
 select 0
 node
 name NonStorage4
+nuid 1f305954-135b-4985-bf69-36c4788804ac
 desc 
 num 5
 ntype 2
 out 4
 pos
-0 385.0000
-1 629.0000
+0 241.9000
+1 613.5000
 labelpos
-0 385.0000
-1 637.5000
+0 241.9000
+1 622.0000
 select 0
 node
 name InLineRes
+nuid 4ab475ed-9888-4ed7-921d-e26486d23594
 desc 
 num 6
 ntype 1
 in 5
 out 7
 pos
-0 464.0000
-1 340.0000
+0 341.2000
+1 362.0000
 labelpos
-0 465.0000
-1 316.5000
+0 342.2000
+1 338.5000
 select 0
 max_vol 52430000
 start_vol 20000000
@@ -133,9 +139,6 @@ effCurveName powerEff
 justTheName True
 resnext 6
 resprev 6
-tsevaprate
-units m/day
-10/01/1980 00:00:00	1.0000
 tstarget
 units 1000 m³
 10/02/1980 00:00:00	52430000
@@ -595,13 +598,14 @@ epoints
 150 2050.2
 area_units m²
 capacity_units m³
-hcapacity_units acre-ft/month
+hcapacity_units m³/month
 resbali
 resbalpcts
 0 100
 resbalflag 1
 node
 name NonStorage5
+nuid 1b54f62d-9610-444a-9e3a-44d1454aa0cd
 desc 
 num 7
 ntype 2
@@ -609,42 +613,45 @@ in 7
 in 24
 out 8
 pos
-0 540.0000
-1 387.0000
+0 401.8000
+1 404.1000
 labelpos
-0 532.0000
-1 393.5000
+0 405.2000
+1 411.4000
 select 0
 node
 name NonStorage6
+nuid 1c2f1857-493d-4e37-a28a-624c52a8f73c
 desc 
 num 8
 ntype 2
 out 6
 pos
-0 537.0000
-1 575.0000
+0 425.6000
+1 555.5000
 labelpos
-0 537.0000
-1 583.5000
+0 425.6000
+1 564.0000
 select 0
 node
 name NonStorage7
+nuid eb5becd5-01db-4c7b-848a-577c3189eb8f
 desc 
 num 9
 ntype 2
 in 10
-in 26
+in 31
 out 11
 pos
-0 655.0000
-1 397.0000
+0 656.7000
+1 405.1000
 labelpos
-0 655.0000
-1 405.5000
+0 656.7000
+1 413.6000
 select 0
 node
 name NonStorage8
+nuid 85e93b58-01ce-4580-9757-c2e6634d7d79
 desc 
 num 10
 ntype 2
@@ -660,6 +667,7 @@ labelpos
 select 0
 node
 name NonStorage9
+nuid cefa0003-a08a-49a8-8482-868ac2b26e04
 desc 
 num 11
 ntype 2
@@ -673,6 +681,7 @@ labelpos
 select 0
 node
 name NonStorage10
+nuid 3d5946ea-34f9-4ba8-8d05-b4ed3b3a25ba
 desc 
 num 12
 ntype 2
@@ -686,6 +695,7 @@ labelpos
 select 0
 node
 name NonStorage11
+nuid ef93aee5-1a46-4477-9e47-e4fdbb6d7428
 desc 
 num 13
 ntype 2
@@ -701,6 +711,7 @@ labelpos
 select 0
 node
 name OffLineRes
+nuid a2986a3b-327b-428b-8f44-345f655e958d
 desc 
 num 14
 ntype 1
@@ -1180,13 +1191,14 @@ epoints
 150 1961.3
 area_units m²
 capacity_units m³
-hcapacity_units m³/day
+hcapacity_units m³/month
 resbali
 resbalpcts
 0 100
 resbalflag 1
 node
 name NonStorage12
+nuid 0491a798-2681-4504-8b55-c1f39147b491
 desc 
 num 15
 ntype 2
@@ -1200,6 +1212,7 @@ labelpos
 select 0
 node
 name NonStorage13
+nuid 46ebccce-33fe-4053-ae0d-5de71db72733
 desc 
 num 16
 ntype 2
@@ -1211,11 +1224,12 @@ pos
 0 1047.0000
 1 472.0000
 labelpos
-0 1050.5780
-1 445.3778
+0 1077.3330
+1 451.4222
 select 0
 node
 name Sink
+nuid 5c5d28b4-dfd7-4f8c-b439-7b6e686ae06c
 desc 
 num 17
 ntype 4
@@ -1229,6 +1243,7 @@ labelpos
 select 0
 node
 name InStreamFlow
+nuid ef2b2918-6811-413e-a8d9-9264433cc028
 desc 
 num 18
 ntype 3
@@ -1250,6 +1265,7 @@ units m³/day
 10/01/1980 00:00:00	150000000
 node
 name NonStorage14
+nuid 07a2d478-341c-4eb0-991f-a424099e2f84
 desc 
 num 19
 ntype 2
@@ -1265,6 +1281,7 @@ labelpos
 select 0
 node
 name NonStorage15
+nuid fb17427f-8942-412b-ae70-f090bb1eed8e
 desc 
 num 20
 ntype 2
@@ -1275,11 +1292,12 @@ pos
 0 887.0000
 1 237.0000
 labelpos
-0 887.0000
-1 245.5000
+0 840.7000
+1 243.1000
 select 0
 node
 name NonStorage16
+nuid 5afe2c8b-64b7-49b3-ad78-839c6a374a2a
 desc 
 num 21
 ntype 2
@@ -1295,18 +1313,24 @@ labelpos
 select 0
 node
 name Municipal
+nuid 668154da-fe47-4038-95e3-6859109a7a4f
 desc 
 num 22
 ntype 3
 in 20
+out 30
 pos
-0 1098.0000
-1 372.0000
+0 1100.0440
+1 406.8445
 labelpos
-0 1098.0000
-1 380.5000
+0 1079.2450
+1 378.6667
 select 0
 pcapUnits acre-ft/month
+idstrmx
+0 28
+idstrmfr
+1-9 0
 tsdemand
 units m³/day
 10/01/1980 00:00:00	40000000
@@ -1314,6 +1338,7 @@ units m³/day
 09/30/1981 00:00:00	40000000
 node
 name NonStorage17
+nuid 187be6f0-20f0-45fb-bc8f-71e4105b9f2f
 desc 
 num 23
 ntype 2
@@ -1328,6 +1353,7 @@ labelpos
 select 0
 node
 name NonStorage18
+nuid e05f77aa-93a9-47d8-9770-f22a666a640d
 desc 
 num 24
 ntype 2
@@ -1335,14 +1361,15 @@ in 25
 out 24
 out 5
 pos
-0 423.6000
-1 395.5000
+0 314.7000
+1 410.1000
 labelpos
-0 444.6000
-1 404.0000
+0 315.4000
+1 420.2000
 select 0
 node
 name NonStorage19
+nuid 17eb45fd-44cd-4506-9c23-60b5e39304b5
 desc 
 num 25
 ntype 2
@@ -1350,14 +1377,15 @@ in 6
 in 8
 out 26
 pos
-0 581.6000
-1 389.5000
+0 466.1000
+1 400.1000
 labelpos
-0 600.6000
-1 368.0000
+0 435.5000
+1 376.1000
 select 0
 node
 name NonStorage20
+nuid 3b0d14cb-30ca-4df0-ac73-8a7312ea4e20
 desc 
 num 26
 ntype 2
@@ -1371,6 +1399,7 @@ labelpos
 select 0
 node
 name NonStorage21
+nuid 227da69b-41cb-4eec-a626-959f69609709
 desc 
 num 27
 ntype 2
@@ -1382,8 +1411,173 @@ labelpos
 0 920.0959
 1 151.5000
 select 0
+node
+name NonStorage22
+nuid 836abb05-155b-40c5-912e-2db5b16bfb04
+desc 
+num 28
+ntype 2
+in 30
+out 29
+pos
+0 1144.7110
+1 379.0667
+labelpos
+0 1190.9330
+1 387.3333
+select 0
+node
+name Demand
+nuid b33a4902-059a-4972-93a1-a0e67064fdc1
+desc 
+num 29
+ntype 3
+in 29
+pos
+0 1217.4220
+1 358.3556
+labelpos
+0 1216.2220
+1 334.4000
+select 0
+pcapUnits 1000 m³/day
+tsdemand
+units 1000 m³/day
+10/01/1980 00:00:00	2000000
+node
+name AgArea_24_Demand
+nuid ce35de9e-a005-4824-ab8e-9dad6e503881
+desc 
+num 30
+ntype 3
+in 35
+pos
+0 755.0000
+1 369.4000
+labelpos
+0 795.8000
+1 343.0000
+select 0
+pcapUnits 1000 m³/day
+tsdemand
+units 1000 m³/day
+10/01/1980 00:00:00	2000000
+node
+name AgArea_25_Demand
+nuid 53c572a0-d5db-453b-8a11-ee9cf4d0edb5
+desc 
+num 31
+ntype 3
+in 37
+pos
+0 691.7000
+1 464.3000
+labelpos
+0 664.1000
+1 474.4000
+select 0
+pcapUnits 1000 m³/day
+tsdemand
+units 1000 m³/day
+10/01/1980 00:00:00	2000000
+node
+name NonStorage23
+nuid 69b8ef25-5b65-44fb-828e-521976774357
+desc 
+num 32
+ntype 2
+in 26
+out 31
+out 33
+out 32
+pos
+0 537.7000
+1 396.8000
+labelpos
+0 519.9000
+1 372.9000
+select 0
+node
+name AgArea_24
+nuid 895b6dab-6a1a-46a7-9a75-49e53eb36ada
+desc 
+num 33
+ntype 3
+in 33
+out 34
+pos
+0 622.7000
+1 375.8000
+labelpos
+0 602.4000
+1 353.4000
+select 0
+idstrmx
+0 34
+idstrmfr
+1-9 0
+tsdemand
+units m³/day
+10/01/1980 00:00:00	0
+06/01/1981 00:00:00	259232000
+09/01/1981 00:00:00	0
+node
+name NonStorage24
+nuid f94800bc-9bb1-4f09-8fff-6e79843d27f7
+desc 
+num 34
+ntype 2
+in 34
+out 35
+pos
+0 683.4000
+1 368.8000
+labelpos
+0 685.8000
+1 344.8000
+select 0
+node
+name AgArea_1
+nuid c20af85f-221f-4bd9-9c42-e2077dc402fb
+desc 
+num 35
+ntype 3
+in 32
+out 36
+pos
+0 580.2000
+1 433.3000
+labelpos
+0 568.8000
+1 441.8000
+select 0
+idstrmx
+0 36
+idstrmfr
+1-9 0
+tsdemand
+units m³/day
+10/01/1980 00:00:00	0
+06/01/1981 00:00:00	370332000
+09/01/1981 00:00:00	0
+node
+name NonStorage25
+nuid 11f1972c-6ce9-47f2-a481-afc42bd6ffc2
+desc 
+num 36
+ntype 2
+in 36
+out 37
+pos
+0 635.0000
+1 450.6000
+labelpos
+0 608.1000
+1 458.3000
+select 0
 link
 lname NonStorage_NonStorage1
+luid 27ee6682-6424-49c4-a2dd-fcdb1153aad4
 ldescription 
 lnum 1
 fromnum 1
@@ -1391,6 +1585,7 @@ tonum 2
 select 0
 link
 lname NonStorage2_NonStorage1
+luid 96f6294f-ad7d-4f2d-b52a-552d005d1fe1
 ldescription 
 lnum 2
 fromnum 3
@@ -1398,6 +1593,7 @@ tonum 2
 select 0
 link
 lname NonStorage1_NonStorage3
+luid b1df0e54-ffdb-4c4d-9aa4-54ee6c049363
 ldescription 
 lnum 3
 fromnum 2
@@ -1405,6 +1601,7 @@ tonum 4
 select 0
 link
 lname NonStorage4_NonStorage3
+luid 6497ca1e-c8f0-42e4-b056-d51eb0fff832
 ldescription 
 lnum 4
 fromnum 5
@@ -1412,6 +1609,7 @@ tonum 4
 select 0
 link
 lname NonStorage18_InLineRes
+luid 87f941a6-56ab-4971-9524-cc465a6433c7
 ldescription 
 lnum 5
 fromnum 24
@@ -1420,6 +1618,7 @@ lcost -50
 select 0
 link
 lname NonStorage6_NonStorage19
+luid 2fbac1ae-a708-478e-94b8-e53614eadfbf
 ldescription 
 lnum 6
 fromnum 8
@@ -1427,6 +1626,7 @@ tonum 25
 select 0
 link
 lname InLineRes_NonStorage5
+luid d1ff8fc1-03d3-42a6-90b6-51d3ab2ec543
 ldescription 
 lnum 7
 fromnum 6
@@ -1434,6 +1634,7 @@ tonum 7
 select 0
 link
 lname NonStorage5_NonStorage19
+luid d4fe4c2c-2883-4fee-9944-68a71f8fa96b
 ldescription 
 lnum 8
 fromnum 7
@@ -1441,6 +1642,7 @@ tonum 25
 select 0
 link
 lname NonStorage9_NonStorage8
+luid abd78bef-799e-4b0a-a63a-20ed8e0aac45
 ldescription 
 lnum 9
 fromnum 11
@@ -1448,6 +1650,7 @@ tonum 10
 select 0
 link
 lname NonStorage10_NonStorage7
+luid feee8a85-1c89-45e2-978e-ec358d526041
 ldescription 
 lnum 10
 fromnum 12
@@ -1455,6 +1658,7 @@ tonum 9
 select 0
 link
 lname NonStorage7_NonStorage8
+luid ba1b5296-ee82-4a40-bd66-a959dcfd3060
 ldescription 
 lnum 11
 fromnum 9
@@ -1462,6 +1666,7 @@ tonum 10
 select 0
 link
 lname NonStorage8_NonStorage11
+luid e2b5d231-14c7-4615-a370-62911104b9f9
 ldescription 
 lnum 12
 fromnum 10
@@ -1469,6 +1674,7 @@ tonum 13
 select 0
 link
 lname NonStorage12_OffLineRes
+luid 13cb3000-80b3-45a4-93c6-e26a9bfff03a
 ldescription 
 lnum 13
 fromnum 15
@@ -1476,6 +1682,7 @@ tonum 14
 select 0
 link
 lname OffLineRes_NonStorage13
+luid a6bdc124-a520-4615-b923-f1f581df2420
 ldescription 
 lnum 14
 fromnum 14
@@ -1484,6 +1691,7 @@ lcost 76
 select 0
 link
 lname NonStorage13_InStreamFlow
+luid 5f50ad80-db9f-47a6-86ec-44b4b0cd9521
 ldescription 
 lnum 15
 fromnum 16
@@ -1492,6 +1700,7 @@ lcost -100
 select 0
 link
 lname NonStorage11_OffLineRes
+luid d395b91c-7ac4-49bf-a35a-19412c75bb0d
 ldescription 
 lnum 16
 fromnum 13
@@ -1503,6 +1712,7 @@ units m³/day
 select 0
 link
 lname NonStorage11_NonStorage14
+luid c479d86e-9812-47e5-8f84-7da1321c6e64
 ldescription 
 lnum 17
 fromnum 13
@@ -1510,6 +1720,7 @@ tonum 19
 select 0
 link
 lname NonStorage15_NonStorage14
+luid 572630ac-8a8e-4c7a-aa18-556720b91c58
 ldescription 
 lnum 18
 fromnum 20
@@ -1517,6 +1728,7 @@ tonum 19
 select 0
 link
 lname NonStorage14_NonStorage16
+luid b63dc764-27fd-4fb0-b465-2e08145b7a7c
 ldescription 
 lnum 19
 fromnum 19
@@ -1524,14 +1736,21 @@ tonum 21
 select 0
 link
 lname NonStorage16_Municipal
+luid 98ef8f80-6cef-4e02-aaee-6d8f7460d17f
 ldescription 
 lnum 20
 fromnum 21
 tonum 22
 lcost -85
+maxCap
+units m³/day
+10/01/1980 00:00:00	40000000
+03/01/1981 00:00:00	120000000
+09/30/1981 00:00:00	40000000
 select 0
 link
 lname NonStorage16_NonStorage13
+luid 86ce52a2-167d-444e-a4aa-287093f4f653
 ldescription 
 lnum 21
 fromnum 21
@@ -1539,6 +1758,7 @@ tonum 16
 select 0
 link
 lname NonStorage13_NonStorage17
+luid e6365f26-e5bf-4c21-aaf1-68c1687a1189
 ldescription 
 lnum 22
 fromnum 16
@@ -1546,6 +1766,7 @@ tonum 23
 select 0
 link
 lname NonStorage17_Sink
+luid c952d038-9969-4df5-9a81-45d1887fb9b9
 ldescription 
 lnum 23
 fromnum 23
@@ -1553,6 +1774,7 @@ tonum 17
 select 0
 link
 lname NonStorage18_NonStorage5
+luid d8b5a918-e565-4603-bf67-04183213661f
 ldescription 
 lnum 24
 fromnum 24
@@ -1560,20 +1782,23 @@ tonum 7
 select 0
 link
 lname NonStorage3_NonStorage18
+luid 5f29e0b6-dd7c-4909-903e-1280dcffcf33
 ldescription 
 lnum 25
 fromnum 4
 tonum 24
 select 0
 link
-lname NonStorage19_NonStorage7
+lname NonStorage19_NonStorage23
+luid c19ebbe6-735a-4495-b324-31eebc17bce4
 ldescription 
 lnum 26
 fromnum 25
-tonum 9
+tonum 32
 select 0
 link
 lname NonStorage20_NonStorage15
+luid 2d789378-0b22-457b-a09b-d0a1568f309f
 ldescription 
 lnum 27
 fromnum 26
@@ -1581,10 +1806,125 @@ tonum 20
 select 0
 link
 lname NonStorage21_NonStorage15
+luid a7238bfe-5191-44d7-ac28-f5f19ec003f7
 ldescription 
 lnum 28
 fromnum 27
 tonum 20
+select 0
+link
+lname NonStorage22_Demand
+luid 2e5b73a7-3beb-4e66-99f3-fa28009a1658
+ldescription 
+lnum 29
+fromnum 28
+tonum 29
+lcoords
+0 1169.0990
+1 359.4873
+select 0
+link
+lname Municipal_NonStorage22
+luid 9980bc43-1462-481c-a98b-1227f26cd466
+ldescription 
+lnum 30
+fromnum 22
+tonum 28
+maxCap
+units 1000 m³/day
+10/01/1980 00:00:00	0
+lcoords
+0 1121.5040
+1 391.8699
+select 0
+link
+lname NonStorage23_NonStorage7
+luid bc6a2c42-c979-45f4-926a-a6cb00b6aae1
+ldescription 
+lnum 31
+fromnum 32
+tonum 9
+lcoords
+0 597.1769
+1 400.9371
+select 0
+link
+lname NonStorage23_AgArea_1
+luid 509402eb-ff74-4f64-a913-3dd07bd64af2
+ldescription 
+lnum 32
+fromnum 32
+tonum 35
+lcost -55
+maxCap
+units m³/day
+10/01/1980 00:00:00	0
+06/01/1981 00:00:00	370332000
+09/01/1981 00:00:00	0
+lcoords
+0 562.9673
+1 410.5691
+select 0
+link
+lname NonStorage23_AgArea_24
+luid e2f1a1ac-88b3-4076-b54b-ff951c69df36
+ldescription 
+lnum 33
+fromnum 32
+tonum 33
+lcost -60
+maxCap
+units m³/day
+10/01/1980 00:00:00	0
+06/01/1981 00:00:00	259232000
+09/01/1981 00:00:00	0
+lcoords
+0 580.1768
+1 386.2878
+select 0
+link
+lname AgArea_24_NonStorage24
+luid 2f5683e0-e3f0-41bd-8483-85212c6deace
+ldescription 
+lnum 34
+fromnum 33
+tonum 34
+maxCap
+units m³/day
+10/01/1980 00:00:00	0
+lcoords
+0 653.0302
+1 372.3048
+select 0
+link
+lname NonStorage24_AgArea_24_Demand
+luid 12152c41-5963-478c-b6e9-26cc8f1c5df0
+ldescription 
+lnum 35
+fromnum 34
+tonum 30
+select 0
+link
+lname AgArea_1_NonStorage25
+luid a2b2e3a8-0bc1-4f22-92dd-86f0c707dbec
+ldescription 
+lnum 36
+fromnum 35
+tonum 36
+maxCap
+units m³/day
+10/01/1980 00:00:00	0
+select 0
+link
+lname NonStorage25_AgArea_25_Demand
+luid 39be0381-5a12-46df-a691-0c9a6b296cd4
+ldescription 
+lnum 37
+fromnum 36
+tonum 31
+lcoords
+0 660.5283
+1 456.0976
 select 0
 annot
 astr -100
@@ -1592,16 +1932,16 @@ aposx 1049
 aposy 498
 annot
 astr -50
-aposx 432
-aposy 364
+aposx 332
+aposy 384
 annot
 astr -75
 aposx 886
 aposy 479
 annot
 astr -85
-aposx 1042
-aposy 396
+aposx 1034
+aposy 409
 annot
 astr +76
 aposx 972
@@ -1614,6 +1954,14 @@ annot
 astr (6/15/17) Network cost structure readynewlineNeed to update newline-Reservoir sizesnewline-Demand Magnitudesnewline-Conveyance capacities
 aposx 1043
 aposy 196
+annot
+astr -60
+aposx 566
+aposy 370
+annot
+astr -55
+aposx 535
+aposy 410
 ially 1 # Explicit_Targets
 iplot 0
 iprd Daily
@@ -1624,9 +1972,9 @@ rdim
 1 0
 2 20480
 3 2700
-title FictionalSagehen
+title FictionalSagehen_AgPack
 uselags 1
-maxit 1000
+maxit 7000
 gw_cp 0.1
 flowth_cp 0.05
 evap_cp 0.01
@@ -1679,7 +2027,8 @@ noTimeStepsInMemorygwinfiltra 1
 spcl_rpts 0
 part_flows 0
 ver7OutputFiles 0
-ver8MSDBOutputFiles 1
+ver8MSDBOutputFiles 0
+SQLiteOutputFiles 1
 DeleteTempVer8OutputFiles 1
 noTimeStepsInMemory 12
 hydroStateOUT 1
