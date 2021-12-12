@@ -600,6 +600,8 @@ area_units m²
 capacity_units m³
 hcapacity_units m³/month
 resbali
+resbaliprio
+0 -50
 resbalpcts
 0 100
 resbalflag 1
@@ -1193,6 +1195,8 @@ area_units m²
 capacity_units m³
 hcapacity_units m³/month
 resbali
+resbaliprio
+0 -75
 resbalpcts
 0 100
 resbalflag 1
@@ -1512,6 +1516,7 @@ labelpos
 0 602.4000
 1 353.4000
 select 0
+pcapUnits 1000 m³/day
 idstrmx
 0 34
 idstrmfr
@@ -1551,6 +1556,7 @@ labelpos
 0 568.8000
 1 441.8000
 select 0
+pcapUnits 1000 m³/day
 idstrmx
 0 36
 idstrmfr
@@ -1614,7 +1620,12 @@ ldescription
 lnum 5
 fromnum 24
 tonum 6
-lcost -50
+maxCap
+units 1000 m³/day
+10/01/1980 00:00:00	29999999999
+measured
+units 1000 m³/day
+10/01/1980 00:00:00	29999999999
 select 0
 link
 lname NonStorage6_NonStorage19
@@ -1705,10 +1716,12 @@ ldescription
 lnum 16
 fromnum 13
 tonum 14
-lcost -75
 maxCap
 units m³/day
 10/01/1980 00:00:00	120000000
+measured
+units 1000 m³/day
+10/01/1980 00:00:00	29999999999
 select 0
 link
 lname NonStorage11_NonStorage14
@@ -1858,12 +1871,10 @@ tonum 35
 lcost -55
 maxCap
 units m³/day
-10/01/1980 00:00:00	0
-06/01/1981 00:00:00	370332000
-09/01/1981 00:00:00	0
-lcoords
-0 562.9673
-1 410.5691
+10/01/1980 00:00:00	370332000
+measured
+units 1000 m³/day
+10/01/1980 00:00:00	29999999999
 select 0
 link
 lname NonStorage23_AgArea_24
@@ -1875,9 +1886,10 @@ tonum 33
 lcost -60
 maxCap
 units m³/day
-10/01/1980 00:00:00	0
-06/01/1981 00:00:00	259232000
-09/01/1981 00:00:00	0
+10/01/1980 00:00:00	259232000
+measured
+units 1000 m³/day
+10/01/1980 00:00:00	29999999999
 lcoords
 0 580.1768
 1 386.2878
@@ -1932,12 +1944,12 @@ aposx 1049
 aposy 498
 annot
 astr -50
-aposx 332
-aposy 384
+aposx 329
+aposy 318
 annot
 astr -75
-aposx 886
-aposy 479
+aposx 891
+aposy 533
 annot
 astr -85
 aposx 1034
@@ -1956,12 +1968,12 @@ aposx 1043
 aposy 196
 annot
 astr -60
-aposx 566
-aposy 370
+aposx 564
+aposy 366
 annot
 astr -55
-aposx 535
-aposy 410
+aposx 528
+aposy 409
 ially 1 # Explicit_Targets
 iplot 0
 iprd Daily
