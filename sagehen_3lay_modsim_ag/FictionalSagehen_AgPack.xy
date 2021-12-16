@@ -602,8 +602,10 @@ hcapacity_units m³/month
 resbali
 resbaliprio
 0 -50
+1 -400900
 resbalpcts
 0 100
+1 10
 resbalflag 1
 node
 name NonStorage5
@@ -1197,8 +1199,10 @@ hcapacity_units m³/month
 resbali
 resbaliprio
 0 -75
+1 -400000
 resbalpcts
 0 100
+1 10
 resbalflag 1
 node
 name NonStorage12
