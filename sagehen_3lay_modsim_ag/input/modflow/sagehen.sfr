@@ -276,15 +276,15 @@ END
 22 1  0 15   0 0.0 0.0 0.0 0.0 0.04    # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH  
 3.0                                    #  A new diversion to a downstream fictitious demand
 3.0                                    #  that is outside the active model domain.  Treated as a surface water diversion
-23 1 16  0 0.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH  
+23 1 16 0 0.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH  
 3.0                                    #  This segment was formerly part of Seg 15, but after addition     
 3.0                                    #  of the fictitious diversion, now appears as a new 5-reach seg  
-24 1 11  6 0.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH  
+24 1 11 6 0 0.0 0.0 0.0 0.0 0.04         # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH
 3.0                                    # New segment supplies irrigation      
 3.0                                    # 
-25 1 11  6 0.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH  
+25 1 11 6 0 0.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH  
 3.0                                    # New segment supplies irrigation     
-3.0        
+3.0                                    #        
 26 1 11  0 0.0 0.0 0.0 0.0 0.04        # NSEG ICALC OUTSEG IUPSEG FLOW RUNOFF ETSW PPTSW ROUGHCH  
 3.0
 3.0

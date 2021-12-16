@@ -17,8 +17,8 @@ DATA           50    ..\input\modflow\LAK_InlineRes_Stage_Vol_Area_TABFILE.txt
 DATA           51    ..\input\modflow\LAK_OfflineRes_Stage_Vol_Area_TABFILE.txt
 #
 DATA           52    ..\input\modflow\well_tab.txt
-DATA           53    ..\input\modflow\seg18_tab.txt
-DATA           54    ..\input\modflow\seg19_tab.txt
+DATA           53    ..\input\modflow\seg24_tab.txt
+DATA           54    ..\input\modflow\seg25_tab.txt
 #
 # Output
 #
@@ -46,8 +46,8 @@ data           78   ..\output\modflow\sagehen_sfrseg5.out
 data           79   ..\output\modflow\sagehen_sfrseg9.out
 data           82   ..\output\modflow\sagehen_sfrseg10.out
 data           83   ..\output\modflow\sagehen_sfrseg12.out
-data           103   ..\output\modflow\sagehensfr18_ag.out
-data           104   ..\output\modflow\sagehensfr19_ag.out
-data           105   ..\output\modflow\sagehensfret18_ag.out
-data           106   ..\output\modflow\sagehensfret19_ag.out
+data           103   ..\output\modflow\sagehensfr24_ag.out
+data           104   ..\output\modflow\sagehensfr25_ag.out
+data           105   ..\output\modflow\sagehensfret24_ag.out
+data           106   ..\output\modflow\sagehensfret25_ag.out
 
