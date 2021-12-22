@@ -16,10 +16,10 @@ timeseries_well
 end
 # AG time series
 time series
-diversion 18 103
-diversion 19 104
-diversionet 18 105
-diversionet 19 106
+diversion 24 103
+diversion 24 104
+diversionet 25 105
+diversionet 25 106
 end
 # AG segment list 
 segment list
