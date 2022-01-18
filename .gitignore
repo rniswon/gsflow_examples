@@ -20,6 +20,7 @@
 *.css
 *.xslt
 *.gif
+*.bak
 
 # Executables
 *.exe
@@ -47,3 +48,14 @@ MF_NWT/MF_NWT/Debug/
 *.log
 sagehen_restart/output/
 *OUTPUT.mdb
+/.vs
+*/obj
+/call_c_from_vb_example/01_mmf_lite/call_c_from_vb/calling_project_in_VB/obj
+/call_c_from_vb_example/02_mmf_lite_compile_as_c_flg/compiled_c/vb_parent/obj
+/call_c_from_vb_example/03_mmf_lite_compile_as_c_flg_w_Fortran/compiled_c/vb_parent/obj
+/call_c_from_vb_example_2/mmf_lite/call_c_from_vb/calling_project_in_VB/obj
+/call_c_from_vb_example_2/mmf_lite_compile_as_c_flg/compiled_c/vb_parent/obj
+/call_fortran_from_C#/Test_String_Passing/passStr_C_Fortran/obj
+/call_fortran_from_C#_32v64Bit_issue/Test_String_Passing/passStr_C_Fortran/obj
+/call_fortran_from_VB/vb_caller/Call_Fortran_example/obj
+/call_fortran_from_VB_example_2/VB-Calls-Fortranx64/Backup/Testx64/obj
