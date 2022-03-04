@@ -15,6 +15,7 @@ AG            19    ..\input\modflow\sagehen.ag
 #
 DATA           50    ..\input\modflow\LAK_InlineRes_Stage_Vol_Area_TABFILE.txt
 DATA           51    ..\input\modflow\LAK_OfflineRes_Stage_Vol_Area_TABFILE.txt
+DATA           52    ..\input\modflow\well_tab.txt
 DATA           53    ..\input\modflow\seg24_tab.txt
 DATA           54    ..\input\modflow\seg25_tab.txt
 #
