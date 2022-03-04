@@ -20,7 +20,7 @@ model_mode
 4
 MODSIM-GSFLOW
 ####
-soilzone_module
+soilzone_ag
 1
 4
 soilzone
