@@ -1,7 +1,7 @@
 xyVersion 8.6
 numhydtables 0
-n_links 37
-n_nodes 36
+n_links 31
+n_nodes 30
 n_lags 5
 ExtManualStorageRightActive False
 ExtStorageRightActive False
@@ -644,7 +644,7 @@ desc
 num 9
 ntype 2
 in 10
-in 31
+in 29
 out 11
 pos
 0 656.7000
@@ -1326,7 +1326,6 @@ desc
 num 22
 ntype 3
 in 20
-out 30
 pos
 0 1100.0440
 1 406.8445
@@ -1335,10 +1334,6 @@ labelpos
 1 378.6667
 select 0
 pcapUnits acre-ft/month
-idstrmx
-0 28
-idstrmfr
-1-9 0
 tsdemand
 units m³/day
 10/01/1980 00:00:00	40000000
@@ -1420,84 +1415,15 @@ labelpos
 1 151.5000
 select 0
 node
-name NonStorage22
-nuid 836abb05-155b-40c5-912e-2db5b16bfb04
-desc 
-num 28
-ntype 2
-in 30
-out 29
-pos
-0 1144.7110
-1 379.0667
-labelpos
-0 1190.9330
-1 387.3333
-select 0
-node
-name Demand
-nuid b33a4902-059a-4972-93a1-a0e67064fdc1
-desc 
-num 29
-ntype 3
-in 29
-pos
-0 1217.4220
-1 358.3556
-labelpos
-0 1216.2220
-1 334.4000
-select 0
-pcapUnits 1000 m³/day
-tsdemand
-units 1000 m³/day
-10/01/1980 00:00:00	2000000
-node
-name AgArea_24_Demand
-nuid ce35de9e-a005-4824-ab8e-9dad6e503881
-desc 
-num 30
-ntype 3
-in 35
-pos
-0 755.0000
-1 369.4000
-labelpos
-0 795.8000
-1 343.0000
-select 0
-pcapUnits 1000 m³/day
-tsdemand
-units 1000 m³/day
-10/01/1980 00:00:00	2000000
-node
-name AgArea_25_Demand
-nuid 53c572a0-d5db-453b-8a11-ee9cf4d0edb5
-desc 
-num 31
-ntype 3
-in 37
-pos
-0 691.7000
-1 464.3000
-labelpos
-0 664.1000
-1 474.4000
-select 0
-pcapUnits 1000 m³/day
-tsdemand
-units 1000 m³/day
-10/01/1980 00:00:00	2000000
-node
 name NonStorage23
 nuid 69b8ef25-5b65-44fb-828e-521976774357
 desc 
-num 32
+num 28
 ntype 2
 in 26
+out 29
 out 31
-out 33
-out 32
+out 30
 pos
 0 537.7000
 1 396.8000
@@ -1509,10 +1435,9 @@ node
 name AgArea_24
 nuid 895b6dab-6a1a-46a7-9a75-49e53eb36ada
 desc 
-num 33
+num 29
 ntype 3
-in 33
-out 34
+in 31
 pos
 0 622.7000
 1 375.8000
@@ -1521,38 +1446,18 @@ labelpos
 1 353.4000
 select 0
 pcapUnits 1000 m³/day
-idstrmx
-0 34
-idstrmfr
-1-9 0
 tsdemand
 units m³/day
 10/01/1980 00:00:00	0
 06/01/1981 00:00:00	259232000
 09/01/1981 00:00:00	0
 node
-name NonStorage24
-nuid f94800bc-9bb1-4f09-8fff-6e79843d27f7
-desc 
-num 34
-ntype 2
-in 34
-out 35
-pos
-0 683.4000
-1 368.8000
-labelpos
-0 685.8000
-1 344.8000
-select 0
-node
 name AgArea_1
 nuid c20af85f-221f-4bd9-9c42-e2077dc402fb
 desc 
-num 35
+num 30
 ntype 3
-in 32
-out 36
+in 30
 pos
 0 580.2000
 1 433.3000
@@ -1561,30 +1466,11 @@ labelpos
 1 441.8000
 select 0
 pcapUnits 1000 m³/day
-idstrmx
-0 36
-idstrmfr
-1-9 0
 tsdemand
 units m³/day
 10/01/1980 00:00:00	0
 06/01/1981 00:00:00	370332000
 09/01/1981 00:00:00	0
-node
-name NonStorage25
-nuid 11f1972c-6ce9-47f2-a481-afc42bd6ffc2
-desc 
-num 36
-ntype 2
-in 36
-out 37
-pos
-0 635.0000
-1 450.6000
-labelpos
-0 608.1000
-1 458.3000
-select 0
 link
 lname NonStorage_NonStorage1
 luid 27ee6682-6424-49c4-a2dd-fcdb1153aad4
@@ -1811,7 +1697,7 @@ luid c19ebbe6-735a-4495-b324-31eebc17bce4
 ldescription 
 lnum 26
 fromnum 25
-tonum 32
+tonum 28
 select 0
 link
 lname NonStorage20_NonStorage15
@@ -1830,36 +1716,11 @@ fromnum 27
 tonum 20
 select 0
 link
-lname NonStorage22_Demand
-luid 2e5b73a7-3beb-4e66-99f3-fa28009a1658
-ldescription 
-lnum 29
-fromnum 28
-tonum 29
-lcoords
-0 1169.0990
-1 359.4873
-select 0
-link
-lname Municipal_NonStorage22
-luid 9980bc43-1462-481c-a98b-1227f26cd466
-ldescription 
-lnum 30
-fromnum 22
-tonum 28
-maxCap
-units 1000 m³/day
-10/01/1980 00:00:00	0
-lcoords
-0 1121.5040
-1 391.8699
-select 0
-link
 lname NonStorage23_NonStorage7
 luid bc6a2c42-c979-45f4-926a-a6cb00b6aae1
 ldescription 
-lnum 31
-fromnum 32
+lnum 29
+fromnum 28
 tonum 9
 lcoords
 0 597.1769
@@ -1869,9 +1730,9 @@ link
 lname NonStorage23_AgArea_1
 luid 509402eb-ff74-4f64-a913-3dd07bd64af2
 ldescription 
-lnum 32
-fromnum 32
-tonum 35
+lnum 30
+fromnum 28
+tonum 30
 lcost -55
 maxCap
 units m³/day
@@ -1884,9 +1745,9 @@ link
 lname NonStorage23_AgArea_24
 luid e2f1a1ac-88b3-4076-b54b-ff951c69df36
 ldescription 
-lnum 33
-fromnum 32
-tonum 33
+lnum 31
+fromnum 28
+tonum 29
 lcost -60
 maxCap
 units m³/day
@@ -1897,50 +1758,6 @@ units 1000 m³/day
 lcoords
 0 580.1768
 1 386.2878
-select 0
-link
-lname AgArea_24_NonStorage24
-luid 2f5683e0-e3f0-41bd-8483-85212c6deace
-ldescription 
-lnum 34
-fromnum 33
-tonum 34
-maxCap
-units m³/day
-10/01/1980 00:00:00	0
-lcoords
-0 653.0302
-1 372.3048
-select 0
-link
-lname NonStorage24_AgArea_24_Demand
-luid 12152c41-5963-478c-b6e9-26cc8f1c5df0
-ldescription 
-lnum 35
-fromnum 34
-tonum 30
-select 0
-link
-lname AgArea_1_NonStorage25
-luid a2b2e3a8-0bc1-4f22-92dd-86f0c707dbec
-ldescription 
-lnum 36
-fromnum 35
-tonum 36
-maxCap
-units m³/day
-10/01/1980 00:00:00	0
-select 0
-link
-lname NonStorage25_AgArea_25_Demand
-luid 39be0381-5a12-46df-a691-0c9a6b296cd4
-ldescription 
-lnum 37
-fromnum 36
-tonum 31
-lcoords
-0 660.5283
-1 456.0976
 select 0
 annot
 astr -100
