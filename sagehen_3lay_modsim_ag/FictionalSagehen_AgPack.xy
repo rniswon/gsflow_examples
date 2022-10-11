@@ -1449,8 +1449,6 @@ pcapUnits 1000 m³/day
 tsdemand
 units m³/day
 10/01/1980 00:00:00	0
-06/01/1981 00:00:00	259232000
-09/01/1981 00:00:00	0
 node
 name AgArea_1
 nuid c20af85f-221f-4bd9-9c42-e2077dc402fb
@@ -1469,8 +1467,6 @@ pcapUnits 1000 m³/day
 tsdemand
 units m³/day
 10/01/1980 00:00:00	0
-06/01/1981 00:00:00	370332000
-09/01/1981 00:00:00	0
 link
 lname NonStorage_NonStorage1
 luid 27ee6682-6424-49c4-a2dd-fcdb1153aad4
