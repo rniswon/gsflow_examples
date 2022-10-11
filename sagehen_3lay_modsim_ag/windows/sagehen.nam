@@ -38,7 +38,7 @@ data           96   ..\output\modflow\Inline_Lake_gage.out
 data           97   ..\output\modflow\Offline_Lake_gage.out
 data           72   ..\output\modflow\sagehen_sfrseg20.out
 data           73   ..\output\modflow\sagehen_sfrseg19.out
-data           74   ..\output\modflow\sagehen_sfrseg22.out
+data           74   ..\output\modflow\sagehen_sfrseg24.out
 data           75   ..\output\modflow\sagehen_sfrseg16.out
 data           76   ..\output\modflow\sagehen_sfrseg17.out
 data           77   ..\output\modflow\sagehen_sfrseg18.out
@@ -50,4 +50,5 @@ data           103   ..\output\modflow\sagehensfr24_ag.out
 data           104   ..\output\modflow\sagehensfr25_ag.out
 data           105   ..\output\modflow\sagehensfret24_ag.out
 data           106   ..\output\modflow\sagehensfret25_ag.out
+DATA           511   ..\output\modflow\SFR_flows_seg.out
 
