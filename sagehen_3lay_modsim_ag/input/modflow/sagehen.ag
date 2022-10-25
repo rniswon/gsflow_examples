@@ -13,6 +13,7 @@ diversionirrlist -2
 timeseries_diversion
 timeseries_diversionet
 timeseries_well
+checkconverge 0.01 50
 end
 # AG time series
 time series
