@@ -1729,7 +1729,7 @@ ldescription
 lnum 30
 fromnum 28
 tonum 30
-lcost -55
+lcost -140
 maxCap
 units m³/day
 10/01/1980 00:00:00	370332000
@@ -1744,7 +1744,7 @@ ldescription
 lnum 31
 fromnum 28
 tonum 29
-lcost -60
+lcost -150
 maxCap
 units m³/day
 10/01/1980 00:00:00	259232000
@@ -1784,11 +1784,11 @@ astr (6/15/17) Network cost structure readynewlineNeed to update newline-Reservo
 aposx 1043
 aposy 196
 annot
-astr -60
+astr -150
 aposx 564
 aposy 366
 annot
-astr -55
+astr -140
 aposx 528
 aposy 409
 ially 1 # Explicit_Targets

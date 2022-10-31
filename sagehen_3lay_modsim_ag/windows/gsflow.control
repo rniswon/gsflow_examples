@@ -23,12 +23,12 @@ MODSIM-GSFLOW
 soilzone_module
 1
 4
-soilzone_ag
+soilzone
 ####
 start_time
 6
 1
-1994
+1991
 6
 1
 0
@@ -38,7 +38,7 @@ start_time
 end_time
 6
 1
-1995
+1993
 10
 31
 0
@@ -206,7 +206,7 @@ hru_actet
 init_vars_from_file
 1
 1
-1
+0
 ####
 var_init_file
 1
