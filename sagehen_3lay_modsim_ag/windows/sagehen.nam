@@ -52,5 +52,5 @@ data           105   ..\output\modflow\sagehensfret24_ag.out
 data           106   ..\output\modflow\sagehensfret25_ag.out
 DATA           511   ..\output\modflow\SFR_flows_seg.out
 # restart output
-IRED  201  ..\input\modflow\restartdata_May1994.in                OLD          # read the starting data from spinup
+#IRED  201  ..\input\modflow\restartdata_May1994.in                OLD          # read the starting data from spinup
 # IWRT 202  restartdata_May1994.out
