@@ -18,7 +18,7 @@ gwr_swale_flag
 model_mode
 1
 4
-GSFLOW5
+MODSIM-GSFLOW
 ####
 soilzone_module
 1
